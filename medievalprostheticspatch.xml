@@ -178,10 +178,26 @@
                                 <xpath>Defs/ThingDef[@ParentName="Basic" or @ParentName="ArtificialMed"]/costList/Steel</xpath>
 				    <name>DankPyon_IronIngot</name>
                             </li>
-						</operations>
-					</match>
-				</li>
-			</operations>
-		</match>
+		
+		<!-- add Medieval Medicines to MO Workbench -->				
+		<li Class="PatchOperationFindMod">
+			<mods>
+				<li>Medieval Medicines</li>
+			</mods>			
+			<match Class="PatchOperationSequence"> <!-- kept sequence just in case -->
+						<!-- <success>Always</success> -->
+				<operations>
+					<li Class="PatchOperationAdd">
+                    				<xpath>Defs/ThingDef[defName="MedicineEarlyMedievalMM" or "MedicineLateMedievalMM" or "MedicineParesianMM" ]/recipeUsers
+                    				</xpath>  
+                   				<value>
+                       					<li>DankPyon_Workbench</li>
+                   				</value>
+             				</li>						
+				</operations>
+			</match>
+		</li>
+	</operations>
+	</match>
 	</Operation>
 </Patch>
