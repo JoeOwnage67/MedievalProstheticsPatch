@@ -179,14 +179,14 @@
 				    <name>DankPyon_IronIngot</name>
                             </li>
 		
-		<!-- add Medieval Medicines to MO Workbench -->				
-		<li Class="PatchOperationFindMod">
+		<!-- add Medieval Medicines to MO Workbench (did this in the RecipeDef) -->			
+		<!--<li Class="PatchOperationFindMod">
 			<mods>
 				<li>Medieval Medicines</li>
 			</mods>			
 			<match Class="PatchOperationSequence"> <!-- kept sequence just in case -->
 						<!-- <success>Always</success> -->
-				<operations>
+				<!-- <operations>
 					<li Class="PatchOperationAdd">
                     				<xpath>Defs/ThingDef[defName="MedicineEarlyMedievalMM" or "MedicineLateMedievalMM" or "MedicineParesianMM" ]/recipeUsers
                     				</xpath>  
@@ -196,8 +196,26 @@
              				</li>						
 				</operations>
 			</match>
-		</li>
-	</operations>
-	</match>
+		</li> 
+	
+		<!-- remove old recipes from Medieval Medicines -->						
+		<li Class="PatchOperationFindMod">
+    			<mods>
+      				<li>Medieval Medicines</li>
+    			</mods>
+    		<match Class="PatchOperationSequence">
+      		<operations>
+
+                	<li Class="PatchOperationRemove">
+          			<xpath>Defs/ThingDef[defName="MedicineEarlyMedievalMM"]/recipeMaker</xpath>
+        		</li>
+			<li Class="PatchOperationRemove">
+          			<xpath>Defs/ThingDef[defName="MedicineLateMedievalMM"]/recipeMaker</xpath>
+        		</li>
+			<li Class="PatchOperationRemove">
+          			<xpath>Defs/ThingDef[defName="MedicineParesianMM"]/recipeMaker</xpath>
+        		</li>
+     		 </operations>
+   		 </match>
 	</Operation>
 </Patch>
