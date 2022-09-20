@@ -9,6 +9,7 @@
 	<packageId>JoeDaly.MedP</packageId>
   
 	<loadAfter>
+		<li>DankPyon.Medieval.Overhaul</li>
 		<li>NunahurAlShamikh.MedMed</li>
 		<li>NunahurAlShamikh.Entosomnia</li>
 		<li>NunahurAlShamikh.MedP</li>
@@ -16,6 +17,10 @@
 	</loadAfter>
 
 	<modDependencies>
+	  <li>
+		  <packageId>DankPyon.Medieval.Overhaul</packageId>
+		  <displayName>Medieval Overhaul</displayName>
+	  </li>
 	  <li>
 		<packageId>NunahurAlShamikh.MedMed</packageId>
 		<displayName>Medieval Medicines</displayName>
