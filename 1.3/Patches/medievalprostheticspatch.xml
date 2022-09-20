@@ -56,7 +56,7 @@
                             ]/statBases
                     </xpath>
                     <value>
-                        <WorkToMake>4500</WorkToMake>
+                        <WorkToMake>4000</WorkToMake>
                     </value>
                 </li>
                 <li Class="PatchOperationAdd">
@@ -83,7 +83,7 @@
                             ]/statBases
                     </xpath>
                     <value>
-                        <WorkToMake>7000</WorkToMake>
+                        <WorkToMake>8000</WorkToMake>
                     </value>
                 </li>
                 <li Class="PatchOperationAdd">
@@ -127,7 +127,7 @@
                             ]/statBases
                     </xpath>
                     <value>
-                        <WorkToMake>20000</WorkToMake>
+                        <WorkToMake>16000</WorkToMake>
                     </value>
                 </li>
                 <li Class="PatchOperationAdd">
