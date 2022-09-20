@@ -12,8 +12,8 @@
 	  <allowMixingIngredients>false</allowMixingIngredients>	
 	  <soundWorking>Recipe_Smith</soundWorking>
 		  <recipeUsers>
-			  <li>DankPyon_Workbench</li>
-        <li>CraftingSpot</li>
+			<li>DankPyon_Workbench</li>
+        		<li>CraftingSpot</li>
 		  </recipeUsers>	  
   </RecipeDef>	
   
@@ -27,34 +27,148 @@
   	<workAmount>700</workAmount>
 		<ingredients>
 			 <li>
-			    <filter>
-			    	<thingDefs>
-              <li>MedicineHerbal</li>
-				    </thingDefs>
-			  </filter>
-			  <count>2</count>
+			 	<filter>
+			    		<thingDefs>
+           			   		<li>MedicineHerbal</li>
+					</thingDefs>
+			 	</filter>
+			 	<count>2</count>
 			 </li>
-       <li>
-         <filter>
-           <thingDefs>
-             <li>Cloth</li>
-           </thingDefs>
-         </filter>
-         <count>10</count>
-       </li>
+	       		 <li>
+         			<filter>
+          				<thingDefs>
+             					<li>Cloth</li>
+           				</thingDefs>
+         			</filter>
+        			<count>10</count>
+       			</li>
 		</ingredients>
-    <products>
-      <MedicineEarlyMedievalMM>1</MedicineEarlyMedievalMM>
-    </products>
+    		<products>
+      			<MedicineEarlyMedievalMM>1</MedicineEarlyMedievalMM>
+    		</products>
    		<fixedIngredientFilter>			
 			<thingDefs>
 				<li>MedicineHerbal</li>
-        <li>Cloth</li>
+        			<li>Cloth</li>
 			</thingDefs>
 		</fixedIngredientFilter>
     	<researchPrerequisites>
 			<li>EarlyMedievalMedicine</li>
-		</researchPrerequisites>
-	</RecipeDef>
+	</researchPrerequisites>
+</RecipeDef>
   
-  
+   <!--Late Medieval Medicine -->
+	
+<RecipeDef ParentName="Joe_MedBase">
+    <defName>RecMedicineLateMedievalMM</defName>
+    <label>Make Late Medieval Medicine</label>
+    <description>A doctor's kit containing a wide variety of herbs and tinctures, a medical manuscript, alcohol-soaked bandages, and various complex tools for cutting and releasing pressure.</description>
+    <jobString>Making Late Medieval Medicine.</jobString>
+  	<workAmount>1000</workAmount>
+		<ingredients>
+			 <li>
+			 	<filter>
+			    		<thingDefs>
+           			   		<li>MedicineEarlyMedievalMM</li>
+					</thingDefs>
+			 	</filter>
+			 	<count>1</count>
+			 </li>
+	       		 <li>
+         			<filter>
+          				<thingDefs>
+             					<li>Cloth</li>
+           				</thingDefs>
+         			</filter>
+        			<count>5</count>
+       			</li>
+			 <li>
+			 	<filter>
+			    		<thingDefs>
+           			   		<li>DankPyon_Ale</li>
+						<li>DankPyon_Cider</li>
+						<li>DankPyon_Mead</li>
+						<li>DankPyon_Wine</li>
+						<li>Beer</li>     
+					</thingDefs>
+			 	</filter>
+			 	<count>1</count>
+			 </li>
+		</ingredients>
+    		<products>
+      			<MedicineLateMedievalMM>1</MedicineLateMedievalMM>
+    		</products>
+   		<fixedIngredientFilter>			
+			<thingDefs>
+				<li>MedicineEarlyMedievalMM</li>
+        			<li>Cloth</li>
+				<li>DankPyon_Ale</li>
+				<li>DankPyon_Cider</li>
+				<li>DankPyon_Mead</li>
+				<li>DankPyon_Wine</li>
+				<li>Beer</li>     
+			</thingDefs>
+		</fixedIngredientFilter>
+    	<researchPrerequisites>
+			<li>LateMedievalMedicine</li>
+	</researchPrerequisites>
+</RecipeDef>
+	
+ <!--Paresian Medicine -->
+	
+<RecipeDef ParentName="Joe_MedBase">
+    <defName>RecMedicineParesianMM</defName>
+    <label>Make Paresian Medicine</label>
+    <description>An incredibly advanced kit of medical supplies including sterilized bandages, mixes of chemicals and herbs, complex tools for suturing, cutting and drilling, a detailed manual of the human anatomy, and perhaps even a sprinkle of magic mixed in.</description>
+    <jobString>Making Paresian Medicine.</jobString>
+  	<workAmount>3500</workAmount>
+		<ingredients>
+			 <li>
+			 	<filter>
+			    		<thingDefs>
+           			   		<li>MedicineLateMedievalMM</li>
+					</thingDefs>
+			 	</filter>
+			 	<count>1</count>
+			 </li>
+	       		 <li>
+         			<filter>
+          				<thingDefs>
+             					<li>Cloth</li>
+           				</thingDefs>
+         			</filter>
+        			<count>8</count>
+       			</li>
+				       		 <li>
+         			<filter>
+          				<thingDefs>
+             					<li>Neutroamine</li>
+           				</thingDefs>
+         			</filter>
+        			<count>5</count>
+       			</li>
+				       		 <li>
+         			<filter>
+          				<thingDefs>
+             					<li>Steel</li>
+           				</thingDefs>
+         			</filter>
+        			<count>5</count>
+       			</li>
+		</ingredients>
+    		<products>
+      			<MedicineParesianMM>1</MedicineParesianMMM>
+    		</products>
+   		<fixedIngredientFilter>			
+			<thingDefs>
+				<li>MedicineLateMedievalMM</li>
+        			<li>Cloth</li>
+				<li>Neutroamine</li>
+				<li>Steel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+    	<researchPrerequisites>
+			<li>LateMedievalMedicine</li>
+	</researchPrerequisites>
+</RecipeDef>
+
