@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Medieval Prosthetics Recipes Patch</name>
+	<author>Joe Daly</author>
+	<supportedVersions>
+        <!--li>1.2</li-->
+		<li>1.3</li>
+    </supportedVersions>
+	<packageId>JoeDaly.MedP</packageId>
+  
+	<loadAfter>
+		<li>NunahurAlShamikh.MedMed</li>
+		<li>NunahurAlShamikh.Entosomnia</li>
+		<li>NunahurAlShamikh.MedP</li>
+		<li>Awan.Chirurgie.Patch</li>
+	</loadAfter>
+
+	<modDependencies>
+	  <li>
+		<packageId>NunahurAlShamikh.MedMed</packageId>
+		<displayName>Medieval Medicines</displayName>
+	  </li>
+	  <li>
+		<packageId>NunahurAlShamikh.Entosomnia</packageId>
+		<displayName>Entosomnia - Medieval Cryptosleep</displayName>
+		</li>
+	  <li>
+		<packageId>NunahurAlShamikh.MedP</packageId>
+		<displayName>Medieval Prosthetics</displayName>
+		</li>
+	  <li>
+		<packageId>Awan.Chirurgie.Patch</packageId>
+		<displayName>Chirurgie Patch</displayName>
+    </li>
+	</modDependencies>
+	<description>Patches Medieval Medicine, Prosthetics, Entosomnia, Chirurgie Patch for Medieval Overhaul Compatibility</description>
+</ModMetaData>
