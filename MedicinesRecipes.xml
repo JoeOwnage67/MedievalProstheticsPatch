@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RecipeDefs>
+  
+  <!-- Attempting to rewrite medicine recipes from Medieval Medicines to use alcohol varieties available in MO -->
+  
+  <!-- Applies to all med recipes -->
+  <RecipeDef Name="Joe_MedBase" Abstract="True">
+	  <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+	  <workSkill>Crafting</workSkill>
+	  <workSkillLearnFactor>1</workSkillLearnFactor>
+	  <effectWorking>Smith</effectWorking>
+	  <allowMixingIngredients>false</allowMixingIngredients>	
+	  <soundWorking>Recipe_Smith</soundWorking>
+		  <recipeUsers>
+			  <li>DankPyon_Workbench</li>
+        <li>CraftingSpot</li>
+		  </recipeUsers>	  
+  </RecipeDef>	
+  
+  <!--Early Medieval Medicine -->
+  
+  <RecipeDef ParentName="Joe_MedBase">
+    <defName>RecMedicineEarlyMedievalMM</defName>
+    <label>Make Early Medieval Medicine</label>
+    <description>A box containing various herbs, tinctures, a trepanation kit, and strips of clean cloth.</description>
+    <jobString>Making Early Medieval Medicine.</jobString>
+  	<workAmount>700</workAmount>
+		<ingredients>
+			 <li>
+			    <filter>
+			    	<thingDefs>
+              <li>MedicineHerbal</li>
+				    </thingDefs>
+			  </filter>
+			  <count>2</count>
+			 </li>
+       <li>
+         <filter>
+           <thingDefs>
+             <li>Cloth</li>
+           </thingDefs>
+         </filter>
+         <count>10</count>
+       </li>
+		</ingredients>
+    <products>
+      <MedicineEarlyMedievalMM>1</MedicineEarlyMedievalMM>
+    </products>
+   		<fixedIngredientFilter>			
+			<thingDefs>
+				<li>MedicineHerbal</li>
+        <li>Cloth</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+    	<researchPrerequisites>
+			<li>EarlyMedievalMedicine</li>
+		</researchPrerequisites>
+	</RecipeDef>
+  
+  
