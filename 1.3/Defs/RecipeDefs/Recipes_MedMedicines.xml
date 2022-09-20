@@ -89,7 +89,8 @@
 						<li>DankPyon_Cider</li>
 						<li>DankPyon_Mead</li>
 						<li>DankPyon_Wine</li>
-						<li>Beer</li>     
+						<li>Beer</li>
+						<li MayRequire="SirMashedPotato.MorrowRim.AlcoholRemade">MorrowRim_CyrodiilicBrandy</li>
 					</thingDefs>
 			 	</filter>
 			 	<count>1</count>
