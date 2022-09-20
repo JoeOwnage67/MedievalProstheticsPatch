@@ -141,7 +141,7 @@
               <!-- use basic components from mod -->
 				<li Class="PatchOperationFindMod">
 					<mods>
-						<li>Argon's Basic Components</li>
+						<li>Medieval Overhaul</li>
 					</mods>
 					<match Class="PatchOperationSequence"> <!-- keep sequence for possible change of individual number of components -->
 						<!-- <success>Always</success> -->
@@ -150,7 +150,7 @@
                                 <!-- this changes all Things with <ThingDef ParentName=""> ie. the children Defs-->
                                 <xpath>Defs/ThingDef[@ParentName="MechanicalMed" or @ParentName="AmbroisenMed"]
                                        /costList/ComponentIndustrial</xpath>
-                                <name>BC_ComponentBasic</name>
+                                <name>>DankPyon_ComponentBasic</name>
                             </li>
                             <!-- 
                                  example to replace something for a specific ThingDef 
@@ -169,14 +169,14 @@
               <!-- replace steel to iron for neolithic -->
                 <li Class="PatchOperationFindMod">
 					<mods>
-						<li>Expanded Materials - Metals</li>
+						<li>Medieval Overhaul</li>
 					</mods>
 					<match Class="PatchOperationSequence"> <!-- kept sequence just in case -->
 						<!-- <success>Always</success> -->
 						<operations>
                             <li Class="PatchOperationSetName">
                                 <xpath>Defs/ThingDef[@ParentName="ArtificialMed"]/costList/Steel</xpath>
-                                <name>VMEu_Iron</name>
+                                <name>DankPyon_IronIngot</name>
                             </li>
 						</operations>
 					</match>
