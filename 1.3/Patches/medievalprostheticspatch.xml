@@ -25,25 +25,25 @@
                 <li Class="PatchOperationReplace">
                     <xpath>Defs/ThingDef[@Name="Basic"]/statBases/WorkToMake</xpath>
                     <value>
-                        <WorkToMake>9000</WorkToMake>
+                        <WorkToMake>4000</WorkToMake>
                     </value>
                 </li>
                 <li Class="PatchOperationReplace">
                     <xpath>Defs/ThingDef[@Name="ArtificialMed"]/statBases/WorkToMake</xpath>
                     <value>
-                        <WorkToMake>14000</WorkToMake>
+                        <WorkToMake>8000</WorkToMake>
                     </value>
                 </li>
                 <li Class="PatchOperationReplace">
                     <xpath>Defs/ThingDef[@Name="MechanicalMed"]/statBases/WorkToMake</xpath>
                     <value>
-                        <WorkToMake>22000</WorkToMake>
+                        <WorkToMake>12000</WorkToMake>
                     </value>
                 </li>
                 <li Class="PatchOperationReplace">
                     <xpath>Defs/ThingDef[@Name="AmbroisenMed"]/statBases/WorkToMake</xpath>
                     <value>
-                        <WorkToMake>40000</WorkToMake>
+                        <WorkToMake>16000</WorkToMake>
                     </value>
                 </li>
               <!-- create individual work time for specific parts -->
