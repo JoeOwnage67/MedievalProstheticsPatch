@@ -175,8 +175,8 @@
 						<!-- <success>Always</success> -->
 						<operations>
                             <li Class="PatchOperationSetName">
-                                <xpath>Defs/ThingDef[@ParentName="ArtificialMed"]/costList/Steel</xpath>
-                                <name>DankPyon_IronIngot</name>
+                                <xpath>Defs/ThingDef[@ParentName="Basic" or @ParentName="ArtificialMed"]/costList/Steel</xpath>
+				    <name>DankPyon_IronIngot</name>
                             </li>
 						</operations>
 					</match>
