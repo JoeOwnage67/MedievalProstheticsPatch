@@ -71,7 +71,7 @@
         		<li>CraftingSpot</li>
     </recipeUsers>
     <skillRequirements>
-      <Intellectual>6</Intellectual>
+      <Crafting>6</Crafting>
     </skillRequirements>
     <researchPrerequisite>LateMedievalMedicine</researchPrerequisite>
   </RecipeDef>
