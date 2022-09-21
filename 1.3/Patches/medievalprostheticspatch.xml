@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
-	
- <!-- add tech levels -->
 	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>Medieval Prosthetics</li>
 		</mods>
 		<match Class="PatchOperationSequence"><!-- <success>Always</success> I want to see the errors -->
 			<operations>
+				
+<!-- add tech levels -->				
                			<li Class="PatchOperationAdd"> <!-- this changes all Things with <ThingDef Name=""> ie. the parent Defs-->
                     			<xpath>Defs/ThingDef[@Name="Basic" or @Name="ArtificialMed"]</xpath>
                     				<value>
