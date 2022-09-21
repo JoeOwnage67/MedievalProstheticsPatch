@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <RecipeDefs>
   
-  <!-- Attempting to rewrite medicine recipes from Medieval Medicines to use alcohol varieties available in MO -->
+  <!-- Attempting to rewrite medicine recipes from Medieval Medicines to use alcohol varieties available in MO and MorrowRim Alcohol Remade -->
   
   <!-- Applies to all med recipes -->
   <RecipeDef Name="Joe_MedBase" Abstract="True">
