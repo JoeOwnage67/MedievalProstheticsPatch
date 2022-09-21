@@ -98,6 +98,9 @@
 						<li MayRequire="SirMashedPotato.MorrowRim.AlcoholRemade">MorrowRim_Mazte</li>
 						<li MayRequire="SirMashedPotato.MorrowRim.AlcoholRemade">MorrowRim_Shein</li>
 						<li MayRequire="SirMashedPotato.MorrowRim.AlcoholRemade">MorrowRim_Sujamma</li>
+						<li MayRequire="OksarPotocki.VanillaFactionsExpanded.MedievalModule">VFEM_Wine</li>
+						<li MayRequire="OskarPotocki.VanillaFactionsExpanded.SettlersModule">Chemshine</li>
+						<li MayRequire="OskarPotocki.VFE.Vikings">VFEV_Mead</li>
 					</thingDefs>
 			 	</filter>
 			 	<count>1</count>
@@ -123,6 +126,9 @@
 				<li MayRequire="SirMashedPotato.MorrowRim.AlcoholRemade">MorrowRim_Mazte</li>
 				<li MayRequire="SirMashedPotato.MorrowRim.AlcoholRemade">MorrowRim_Shein</li>
 				<li MayRequire="SirMashedPotato.MorrowRim.AlcoholRemade">MorrowRim_Sujamma</li>
+				<li MayRequire="OksarPotocki.VanillaFactionsExpanded.MedievalModule">VFEM_Wine</li>
+				<li MayRequire="OskarPotocki.VanillaFactionsExpanded.SettlersModule">Chemshine</li>
+				<li MayRequire="OskarPotocki.VFE.Vikings">VFEV_Mead</li>
 			</thingDefs>
 		</fixedIngredientFilter>
     	<researchPrerequisites>
