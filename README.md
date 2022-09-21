@@ -21,7 +21,7 @@ What this mod does:
 
 - Research projects and tabs were reworked by Awan in the Chirurgie Patch, which is now required. Work ticks needed to craft prosthetics and medicine has also been adjusted by this patch.
 
-- Added support for all of Medieval Overhaul's alcoholic items to work as ingredients when creating medicines that require alcohol. Various alcohols from Morrowrim - Alcohol Remade are also supported but mod is not required.
+- Added support for all of Medieval Overhaul's alcoholic items to work as ingredients when creating medicines that require alcohol. Various alcohols from Morrowrim - Alcohol Remade are also supported but mod is not required. There is also support for VFE Medieval's Wine, VFE Settlers' Chemshine and VFE Vikings' Mead, but none of them are required either.
 
 - Scar cream from Apothecary (Continued) has been added, which is a way to remedy your colony's various scars. Apothecary is not required, but if you choose to install it there should be no conflict with this mod.
 
