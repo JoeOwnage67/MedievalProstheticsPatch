@@ -68,7 +68,8 @@
     </products>
     <recipeUsers>
             <li>DankPyon_Workbench</li>
-        		<li>CraftingSpot</li>
+        	<li>CraftingSpot</li>
+            <li>DrugLab</li>
     </recipeUsers>
     <skillRequirements>
       <Crafting>6</Crafting>
