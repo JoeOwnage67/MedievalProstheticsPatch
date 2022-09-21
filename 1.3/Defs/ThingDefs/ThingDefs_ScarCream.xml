@@ -15,7 +15,7 @@
     </ingestible>
     <socialPropernessMatters>true</socialPropernessMatters>
     <thingCategories Inherit="false">
-      <li>Drugs</li>
+      <li>Medicine</li>
     </thingCategories>
   </ThingDef>
   
@@ -28,7 +28,7 @@
       <ingestReportString>Applying {0}.</ingestReportString>
     </ingestible>
     <thingCategories Inherit="false">
-      <li>Drugs</li>
+      <li>Medicine</li>
     </thingCategories>
   </ThingDef>
   
