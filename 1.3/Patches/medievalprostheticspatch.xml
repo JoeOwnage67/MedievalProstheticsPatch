@@ -173,7 +173,7 @@
                     				</value>
                			</li>
 				<li Class="PatchOperationAdd">
-                    			<xpath>Defs/ThingDef[defName=">AmbroisenMedEar" or defName="AmbroisenMedNose"]/costlist</xpath>
+                    			<xpath>Defs/ThingDef[defName="AmbroisenMedEar" or defName="AmbroisenMedNose"]/costlist</xpath>
                     				<value>
                         				<DankPyon_Emerald>1</DankPyon_Emerald>
                     				</value>
@@ -181,7 +181,7 @@
 				
 <!-- change efficiency of sensory ambroisen prosthetics (they are magical) -->
 				<li Class="PatchOperationReplace">
-                    			<xpath>Defs/HediffDef[defName=">AmbroisenMedEar" or defName="AmbroisenMedNose" or defName="AmbroisenMedEye"]/addedPartProps/partEfficiency</xpath>
+                    			<xpath>Defs/HediffDef[defName="AmbroisenMedEar" or defName="AmbroisenMedNose" or defName="AmbroisenMedEye"]/addedPartProps/partEfficiency</xpath>
                     				<value>
                        					<partEfficiency>0.70</partEfficiency>
                    				</value>
@@ -190,7 +190,7 @@
 		</match>
 	</Operation>	
 	
-<!-- remove old recipes from Medieval Medicines -->	
+<!-- remove old recipes from Medieval Medicines, add Med recipes to MO Workbench -->	
 	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>Medieval Medicines</li>
@@ -211,6 +211,13 @@
 				<li Class="PatchOperationRemove">
           				<xpath>Defs/ThingDef[defName="MedicineParesianMM"]/recipeMaker</xpath>
         			</li>
+				</li>
+				<li Class="PatchOperationAdd">
+                    			<xpath>Defs/ThingDef[defName="MedicineEarlyMedievalMM" or defName="MedicineLateMedievalMM" or defName="MedicineParesianMM"]/recipeUsers</xpath>
+                    				<value>
+							<li>DankPyon_Workbench</li>
+                    				</value>
+               			</li>
      		 	</operations>
    		 </match>
 	</Operation>
