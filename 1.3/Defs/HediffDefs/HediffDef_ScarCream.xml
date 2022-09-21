@@ -2,7 +2,7 @@
     <defName>MMScarCreamHigh</defName>
     <hediffClass>HediffWithComps</hediffClass>
     <label>Scar Cream</label>
-    <description>Scar cream effect</description>
+    <description>Scar Cream Effect</description>
     <defaultLabelColor>(0.23, 0.64, 0.52)</defaultLabelColor>
     <scenarioCanAdd>true</scenarioCanAdd>
     <maxSeverity>1.0</maxSeverity>
