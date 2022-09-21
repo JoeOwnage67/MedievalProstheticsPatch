@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
+	
+	<!-- Tweaks to worktomake and tech level in Prosthetics thingdefs -->
 	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>Medieval Prosthetics</li>
@@ -138,7 +140,9 @@
                         <WorkToMake>9000</WorkToMake>
                     </value>
                 </li>
-              <!-- use basic components from mod -->
+              
+				
+				<!-- use basic components from mod -->
 				<li Class="PatchOperationFindMod">
 					<mods>
 						<li>Medieval Overhaul</li>
@@ -216,6 +220,55 @@
           			<xpath>Defs/ThingDef[defName="MedicineParesianMM"]/recipeMaker</xpath>
         		</li>
      		 </operations>
-   		 </match>
+   		 <match>
+		</li>
+			
+			
+		<!-- Change recipes for Ambroisen Prosthetics to include Emerald-->
+										
+		<li Class="PatchOperationFindMod">
+    			<mods>
+      				<li>Medieval Prosthetics</li>
+    			</mods>
+    		<match Class="PatchOperationSequence">
+      		<operations>
+                	<li Class="PatchOperationAdd">
+                    		<xpath>Defs/ThingDef[defName="AmbroisenMedHand" or defName="AmbroisenMedFoot" or defName="AmbroisenMedEye"]/costlist</xpath>
+                    			<value>
+                        			<DankPyon_Emerald>5</DankPyon_Emerald>
+                    			</value>
+               		</li>
+			<li Class="PatchOperationAdd">
+                    		<xpath>Defs/ThingDef[defName="AmbroisenMedLeg" or defName="AmbroisenMedArm"]/costlist</xpath>
+                    			<value>
+                        			<DankPyon_Emerald>15</DankPyon_Emerald>
+                    			</value>
+               		</li>
+        		<li Class="PatchOperationAdd">
+                    		<xpath>Defs/ThingDef[defName="AmbroisenMedFinger" or defName="AmbroisenMedToe"]/costlist</xpath>
+                    			<value>
+                        			<DankPyon_Emerald>2</DankPyon_Emerald>
+                    			</value>
+               		</li>
+			<li Class="PatchOperationAdd">
+                    		<xpath>Defs/ThingDef[defName=">AmbroisenMedEar" or defName="AmbroisenMedNose"]/costlist</xpath>
+                    			<value>
+                        			<DankPyon_Emerald>1</DankPyon_Emerald>
+                    			</value>
+               		</li>
+     		 <!-- change efficiency of sensory ambroisen prosthetics (they are magical) -->
+			
+			<li Class="PatchOperationReplace">
+                    		<xpath>Defs/HediffDef[defName=">AmbroisenMedEar" or defName="AmbroisenMedNose" or defName="AmbroisenMedEye"]/addedPartProps</xpath>
+                    			<value>
+                       				<partEfficiency>0.70</partEfficiency>
+                   			</value>
+               		</li>
+			
+			
+		</operations>
+   		 <match>
+		</li>
+			
 	</Operation>
 </Patch>
