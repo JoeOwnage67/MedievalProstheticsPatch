@@ -181,7 +181,7 @@
 				
 <!-- change efficiency of sensory ambroisen prosthetics (they are magical) -->
 				<li Class="PatchOperationReplace">
-                    			<xpath>Defs/HediffDef[defName="AmbroisenMedEar" or defName="AmbroisenMedNose" or defName="AmbroisenMedEye"]/addedPartProps/partEfficiency</xpath>
+                    			<xpath>Defs/HediffDef[defName="AmbroisenMedEar" or defName="AmbroisenMedNose" or defName="AmbroisenMedEye"]/addedPartProps</xpath>
                     				<value>
                        					<partEfficiency>0.70</partEfficiency>
                    				</value>
