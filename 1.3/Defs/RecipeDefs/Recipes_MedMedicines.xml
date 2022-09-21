@@ -91,6 +91,13 @@
 						<li>DankPyon_Wine</li>
 						<li>Beer</li>
 						<li MayRequire="SirMashedPotato.MorrowRim.AlcoholRemade">MorrowRim_CyrodiilicBrandy</li>
+						<li MayRequire="SirMashedPotato.MorrowRim.AlcoholRemade">MorrowRim_DagothBrandy</li>
+						<li MayRequire="SirMashedPotato.MorrowRim.AlcoholRemade">MorrowRim_Flin</li>
+						<li MayRequire="SirMashedPotato.MorrowRim.AlcoholRemade">MorrowRim_Greef</li>
+						<li MayRequire="SirMashedPotato.MorrowRim.AlcoholRemade">MorrowRim_VintageGreef</li>
+						<li MayRequire="SirMashedPotato.MorrowRim.AlcoholRemade">MorrowRim_Mazte</li>
+						<li MayRequire="SirMashedPotato.MorrowRim.AlcoholRemade">MorrowRim_Shein</li>
+						<li MayRequire="SirMashedPotato.MorrowRim.AlcoholRemade">MorrowRim_Sujamma</li>
 					</thingDefs>
 			 	</filter>
 			 	<count>1</count>
@@ -108,6 +115,14 @@
 				<li>DankPyon_Mead</li>
 				<li>DankPyon_Wine</li>
 				<li>Beer</li>     
+				<li MayRequire="SirMashedPotato.MorrowRim.AlcoholRemade">MorrowRim_CyrodiilicBrandy</li>
+				<li MayRequire="SirMashedPotato.MorrowRim.AlcoholRemade">MorrowRim_DagothBrandy</li>
+				<li MayRequire="SirMashedPotato.MorrowRim.AlcoholRemade">MorrowRim_Flin</li>
+				<li MayRequire="SirMashedPotato.MorrowRim.AlcoholRemade">MorrowRim_Greef</li>
+				<li MayRequire="SirMashedPotato.MorrowRim.AlcoholRemade">MorrowRim_VintageGreef</li>
+				<li MayRequire="SirMashedPotato.MorrowRim.AlcoholRemade">MorrowRim_Mazte</li>
+				<li MayRequire="SirMashedPotato.MorrowRim.AlcoholRemade">MorrowRim_Shein</li>
+				<li MayRequire="SirMashedPotato.MorrowRim.AlcoholRemade">MorrowRim_Sujamma</li>
 			</thingDefs>
 		</fixedIngredientFilter>
     	<researchPrerequisites>
