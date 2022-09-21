@@ -9,7 +9,7 @@ I have also incorporated certain elements of Apothecary (Continued) with permiss
 
 Load after Medieval Overhaul, Medieval Prosthetics, Medieval Medicines, Entosomnia - Medieval Cryptosleep, and Chirurgie Patch.
 
-Thanks to SirLalaPyon, Nuno, Awan, Ogam, TruGerman, and SirMashedPotato for all of their mods and their help.
+Thanks to SirLalaPyon, Nuno, Awan, Ogam, TruGerman, dltslt and SirMashedPotato for all of their mods and their help.
 
 What this mod does:
 
