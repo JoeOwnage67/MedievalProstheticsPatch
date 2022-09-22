@@ -221,13 +221,13 @@
 			<success>Normal</success>
 			<operations>		
 			        <li Class="PatchOperationRemove">
-          				<xpath>Defs/RecipeDef[defName="latewinemed"]/recipeUsers</xpath>
+          				<xpath>Defs/RecipeDef[defName="latewinemed"]</xpath>
         			</li>
 				<li Class="PatchOperationRemove">
-          				<xpath>Defs/ThingDef[defName="settlermed"]/recipeUsers</xpath>
+          				<xpath>Defs/RecipeDef[defName="settlermed"]</xpath>
         			</li>
 				<li Class="PatchOperationRemove">
-          				<xpath>Defs/ThingDef[defName="latemeadmed"]/recipeUsers</xpath>
+          				<xpath>Defs/RecipeDef[defName="latemeadmed"]/xpath>
         			</li>
 			</operations>
    		 </match>
