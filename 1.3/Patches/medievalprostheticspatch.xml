@@ -207,7 +207,16 @@
         			</li>
 				<li Class="PatchOperationRemove">
           				<xpath>Defs/ThingDef[defName="MedicineParesianMM"]/recipeMaker</xpath>
-        			</li>	
+        			</li>
+				 <li Class="PatchOperationRemove">
+          				<xpath>Defs/ThingDef[defName="MedicineEarlyMedievalMM"]/costList</xpath>
+        			</li>
+				<li Class="PatchOperationRemove">
+          				<xpath>Defs/ThingDef[defName="MedicineLateMedievalMM"]/costList</xpath>
+        			</li>
+				<li Class="PatchOperationRemove">
+          				<xpath>Defs/ThingDef[defName="MedicineParesianMM"]/costList</xpath>
+        			</li>
      		 	</operations>
    		 </match>
 	</Operation>
