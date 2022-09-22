@@ -227,7 +227,7 @@
           				<xpath>Defs/RecipeDef[defName="settlermed"]</xpath>
         			</li>
 				<li Class="PatchOperationRemove">
-          				<xpath>Defs/RecipeDef[defName="latemeadmed"]/xpath>
+          				<xpath>Defs/RecipeDef[defName="latemeadmed"]</xpath>
         			</li>
 			</operations>
    		 </match>
