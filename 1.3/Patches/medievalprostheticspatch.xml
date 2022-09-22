@@ -2,9 +2,10 @@
 <Patch>
 	<Operation Class="PatchOperationFindMod">
 		<mods>
-			<li>NunahurAlShamikh.MedP</li> <!-- Medieval Prosthetics -->
+			<li>Medieval Prosthetics</li> <!-- Medieval Prosthetics NunahurAlShamikh.MedP -->
 		</mods>
-		<match Class="PatchOperationSequence"><!-- <success>Always</success> I want to see the errors -->
+		<match Class="PatchOperationSequence">
+			<success>Normal</success>
 			<operations>
 				
 <!-- add tech levels -->				
@@ -193,9 +194,10 @@
 <!-- remove old recipes from Medieval Medicines -->	
 	<Operation Class="PatchOperationFindMod">
 		<mods>
-			<li>NunahurAlShamikh.MedMed</li> <!-- Medieval Medicines -->
+			<li>Medieval Medicines</li> <!-- Medieval Medicines NunahurAlShamikh.MedMed -->
 		</mods>
-		<match Class="PatchOperationSequence"><!-- <success>Always</success> I want to see the errors -->
+		<match Class="PatchOperationSequence">
+			<success>Normal</success>
 			<operations>		
 			        <li Class="PatchOperationRemove">
           				<xpath>Defs/ThingDef[defName="MedicineEarlyMedievalMM"]/recipeMaker</xpath>
@@ -213,9 +215,10 @@
 <!-- hide old recipes from Chirurgie Patch for VFE liquors -->	
 	<Operation Class="PatchOperationFindMod">
 		<mods>
-			<li>Awan.Chirurgie.Patch</li> <!-- Chirurgie Patch -->
+			<li>Chirurgie Patch</li> <!-- Chirurgie Patch Awan.Chirurgie.Patch -->
 		</mods>
-		<match Class="PatchOperationSequence"><!-- <success>Always</success> I want to see the errors -->
+		<match Class="PatchOperationSequence">
+			<success>Normal</success>
 			<operations>		
 			        <li Class="PatchOperationRemove">
           				<xpath>Defs/RecipeDef[defName="latewinemed"]/recipeUsers</xpath>
