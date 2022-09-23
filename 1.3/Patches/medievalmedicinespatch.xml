@@ -1,0 +1,29 @@
+<!-- remove old recipes from Medieval Medicines -->	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Medieval Medicines</li> <!-- Medieval Medicines NunahurAlShamikh.MedMed -->
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Normal</success>
+			<operations>		
+			        <li Class="PatchOperationRemove">
+          				<xpath>Defs/ThingDef[defName="MedicineEarlyMedievalMM"]/recipeMaker</xpath>
+        			</li>
+				<li Class="PatchOperationRemove">
+          				<xpath>Defs/ThingDef[defName="MedicineLateMedievalMM"]/recipeMaker</xpath>
+        			</li>
+				<li Class="PatchOperationRemove">
+          				<xpath>Defs/ThingDef[defName="MedicineParesianMM"]/recipeMaker</xpath>
+        			</li>
+				 <li Class="PatchOperationRemove">
+          				<xpath>Defs/ThingDef[defName="MedicineEarlyMedievalMM"]/costList</xpath>
+        			</li>
+				<li Class="PatchOperationRemove">
+          				<xpath>Defs/ThingDef[defName="MedicineLateMedievalMM"]/costList</xpath>
+        			</li>
+				<li Class="PatchOperationRemove">
+          				<xpath>Defs/ThingDef[defName="MedicineParesianMM"]/costList</xpath>
+        			</li>
+     		 	</operations>
+   		 </match>
+	</Operation>
