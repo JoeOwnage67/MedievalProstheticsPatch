@@ -30,3 +30,5 @@ What this mod does:
 - All Medieval Medicines and Scar Cream are craftable at the Drug Lab, Medieval Overhaul Workbench, and Crafting Spot.
 
 - All Medieval Prosthetics are craftable at the Medieval Overhaul Workbench and Crafting Spot.
+
+- Prosthetics should now satisfy Transhumanist trait.
