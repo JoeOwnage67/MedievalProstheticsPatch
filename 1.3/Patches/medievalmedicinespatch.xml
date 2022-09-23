@@ -1,3 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
 <!-- remove old recipes from Medieval Medicines -->	
 	<Operation Class="PatchOperationFindMod">
 		<mods>
@@ -27,3 +30,4 @@
      		 	</operations>
    		 </match>
 	</Operation>
+</Patch>
