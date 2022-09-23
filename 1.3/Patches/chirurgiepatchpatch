@@ -1,3 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
 <!-- hide old recipes from Chirurgie Patch for VFE liquors -->	
 	<Operation Class="PatchOperationFindMod">
 		<mods>
