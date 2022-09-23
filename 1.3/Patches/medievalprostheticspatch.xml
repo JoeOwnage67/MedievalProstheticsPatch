@@ -179,6 +179,21 @@
                         				<DankPyon_Emerald>1</DankPyon_Emerald>
                     				</value>
                			</li>
+
+<!-- make all prosthetics craftable at MO Workbench and Crafting Spot -->
+				<li Class="PatchOperationAdd">
+                    			<xpath>Defs/ThingDef[defName="Basic" or defName="ArtificialMed"]/recipeUsers</xpath>
+                    				<value>
+                        				<li>DankPyon_Workbench</li>							
+                    				</value>				
+				</li>
+				<li Class="PatchOperationAdd">
+                    			<xpath>Defs/ThingDef[defName=""MechanicalMed"" or defName="AmbroisenMed"]/recipeUsers</xpath>
+                    				<value>
+                        				<li>DankPyon_Workbench</li>	
+							<li>CraftingSpot</li>
+                    				</value>				
+				</li>	
 				
 <!--change wood and metal ingredients to use stuffed ingredients where possible + add emerald to ambroisen parts (magical)-->
 <!-- Basic -->
@@ -196,6 +211,7 @@
 				<li Class="PatchOperationRemove">
           				<xpath>Defs/ThingDef[defName="IronArm"]/costlist</xpath>
         			</li>
+				
 <!--ProstheticHook -->
 				<li Class="PatchOperationAdd">
                     			<xpath>Defs/ThingDef[defName="ProstheticHook"]</xpath>
@@ -209,6 +225,7 @@
 				<li Class="PatchOperationRemove">
           				<xpath>Defs/ThingDef[defName="ProstheticHook"]/costlist</xpath>
         			</li>
+				
 <!-- WoodenFoot -->
 				<li Class="PatchOperationAdd">
                     			<xpath>Defs/ThingDef[defName="WoodenFoot"]</xpath>
