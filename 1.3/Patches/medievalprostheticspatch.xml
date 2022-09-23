@@ -558,6 +558,45 @@
                        					<partEfficiency>0.80</partEfficiency>
                    				</value>
 				</li>
+		
+<!-- Make prosthetics satisfy transhumanist trait -->
+		
+<!-- ambroisen -->
+				<li Class="PatchOperationAdd">
+                    			<xpath>Defs/HediffDef[defName="addedPartMedAmbroisen"]/addedPartProps</xpath>
+                    				<value>
+                       					<isBionic>true</isBionic>
+							<betterThanNatural>true</betterThanNatural>
+                   				</value>
+				</li>
+					
+<!-- adjust efficiency of Basic Parts -->
+				<li Class="PatchOperationAdd">
+                    			<xpath>Defs/HediffDef[defname="addedPartBasic"]/addedPartProps</xpath>
+                    				<value>
+                       					<isBionic>true</isBionic>
+							<betterThanNatural>true</betterThanNatural>
+                   				</value>
+				</li>
+		
+<!-- adjust efficiency of Artifical Parts -->
+				<li Class="PatchOperationAdd">
+                    			<xpath>Defs/HediffDef[defname="addedPartMedArtificial"]/addedPartProps</xpath>
+                    				<value>
+                       					<isBionic>true</isBionic>
+							<betterThanNatural>true</betterThanNatural>
+                   				</value>
+				</li>
+		
+<!-- adjust efficiency of Mechanical Parts -->
+				<li Class="PatchOperationAdd">
+                    			<xpath>Defs/HediffDef[defname="addedPartMedArtificial"]/addedPartProps</xpath>
+                    				<value>
+                       					<isBionic>true</isBionic>
+							<betterThanNatural>true</betterThanNatural>
+                   				</value>
+				</li>
+				
 			</operations>				
 		</match>
 	</Operation>		
