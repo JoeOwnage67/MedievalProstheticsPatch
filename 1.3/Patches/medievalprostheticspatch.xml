@@ -189,56 +189,5 @@
                			</li>
 			</operations>				
 		</match>
-	</Operation>	
-	
-<!-- remove old recipes from Medieval Medicines -->	
-	<Operation Class="PatchOperationFindMod">
-		<mods>
-			<li>Medieval Medicines</li> <!-- Medieval Medicines NunahurAlShamikh.MedMed -->
-		</mods>
-		<match Class="PatchOperationSequence">
-			<success>Normal</success>
-			<operations>		
-			        <li Class="PatchOperationRemove">
-          				<xpath>Defs/ThingDef[defName="MedicineEarlyMedievalMM"]/recipeMaker</xpath>
-        			</li>
-				<li Class="PatchOperationRemove">
-          				<xpath>Defs/ThingDef[defName="MedicineLateMedievalMM"]/recipeMaker</xpath>
-        			</li>
-				<li Class="PatchOperationRemove">
-          				<xpath>Defs/ThingDef[defName="MedicineParesianMM"]/recipeMaker</xpath>
-        			</li>
-				 <li Class="PatchOperationRemove">
-          				<xpath>Defs/ThingDef[defName="MedicineEarlyMedievalMM"]/costList</xpath>
-        			</li>
-				<li Class="PatchOperationRemove">
-          				<xpath>Defs/ThingDef[defName="MedicineLateMedievalMM"]/costList</xpath>
-        			</li>
-				<li Class="PatchOperationRemove">
-          				<xpath>Defs/ThingDef[defName="MedicineParesianMM"]/costList</xpath>
-        			</li>
-     		 	</operations>
-   		 </match>
-	</Operation>
-
-<!-- hide old recipes from Chirurgie Patch for VFE liquors -->	
-	<Operation Class="PatchOperationFindMod">
-		<mods>
-			<li>Chirurgie Patch</li> <!-- Chirurgie Patch Awan.Chirurgie.Patch -->
-		</mods>
-		<match Class="PatchOperationSequence">
-			<success>Normal</success>
-			<operations>		
-			        <li Class="PatchOperationRemove">
-          				<xpath>Defs/RecipeDef[defName="latewinemed"]</xpath>
-        			</li>
-				<li Class="PatchOperationRemove">
-          				<xpath>Defs/RecipeDef[defName="settlermed"]</xpath>
-        			</li>
-				<li Class="PatchOperationRemove">
-          				<xpath>Defs/RecipeDef[defName="latemeadmed"]</xpath>
-        			</li>
-			</operations>
-   		 </match>
-	</Operation>
+	</Operation>		
 </Patch>
