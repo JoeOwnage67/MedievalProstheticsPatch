@@ -143,7 +143,7 @@
 <!-- use basic components from MO -->
 				<li Class="PatchOperationSetName"><!-- this changes all Things with <ThingDef ParentName=""> ie. the children Defs-->
                                 	<xpath>Defs/ThingDef[@ParentName="MechanicalMed" or @ParentName="AmbroisenMed"]/costList/ComponentIndustrial</xpath>
-                                	<name>>DankPyon_ComponentBasic</name>
+                                	<name>DankPyon_ComponentBasic</name>
                            	</li>
                    
 
