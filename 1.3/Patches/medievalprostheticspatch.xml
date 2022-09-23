@@ -59,7 +59,7 @@
                             		]/statBases
                     			</xpath>
                     				<value>
-                        				<WorkToMake>4000</WorkToMake>
+                        				<WorkToMake>3000</WorkToMake>
                     				</value>
                 		</li>
                 		<li Class="PatchOperationAdd">
@@ -87,13 +87,13 @@
                             		]/statBases
                     			</xpath>
                     				<value>
-                        				<WorkToMake>8000</WorkToMake>
+                        				<WorkToMake>7000</WorkToMake>
                     				</value>
                 		</li>
                 		<li Class="PatchOperationAdd">
                     			<xpath>Defs/ThingDef[defName="ArtificialMedToe" or defName="ArtificialMedFinger"]/statBases</xpath>
                     				<value>
-                        				<WorkToMake>3000</WorkToMake>
+                        				<WorkToMake>4000</WorkToMake>
                     				</value>
                 		</li>
 				
@@ -114,7 +114,7 @@
                 		<li Class="PatchOperationAdd">
                     			<xpath>Defs/ThingDef[defName="MechanicalMedToe" or defName="MechanicalMedFinger"]/statBases</xpath>
                     				<value>
-                        				<WorkToMake>5000</WorkToMake>
+                        				<WorkToMake>6000</WorkToMake>
                     				</value>
                 		</li>
 				
@@ -129,13 +129,13 @@
                             		]/statBases
                     			</xpath>
                     				<value>
-                        				<WorkToMake>16000</WorkToMake>
+                        				<WorkToMake>14000</WorkToMake>
                     				</value>
                 		</li>
                 		<li Class="PatchOperationAdd">
                    			<xpath>Defs/ThingDef[defName="AmbroisenMedToe" or defName="AmbroisenMedFinger"]/statBases</xpath>
                     				<value>
-                        				<WorkToMake>9000</WorkToMake>
+                        				<WorkToMake>7000</WorkToMake>
                     				</value>
                 		</li>
               
