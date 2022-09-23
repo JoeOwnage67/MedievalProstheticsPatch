@@ -17,7 +17,9 @@ What this mod does:
 
 - Adds emerald as an ingedient in Ambroisen Prosthetic Limbs. These limbs are meant to be imbued with magical energy. The magical properties of the emerald are the ingredient that allows a man-made prosthetic to function equivalent to a natural limb. 
 
-- Sensory Ambroisen Prosthetics can actually restore sight, hearing and smell, also thanks to the magical properties of the emerald. They may not be on par with a natural eye, ear or nose, but they will allow your pawn to function mostly normally again.
+- Sensory Ambroisen Prosthetics can actually restore sight, hearing and smell, also thanks to the magical properties of the emerald. They may not be on par with a natural eye, ear or nose, but they will allow your pawn to function mostly normally again. Increased component cost in recipe to account for this.
+
+- Made prosthetics recipes stuffable where possible so you can choose which materials to use.
 
 - Research projects and tabs were reworked by Awan in the Chirurgie Patch, which is now required. Work ticks needed to craft prosthetics and medicine has also been adjusted by this patch.
 
