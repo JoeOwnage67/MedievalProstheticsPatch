@@ -8,17 +8,23 @@
 			<success>Normal</success>
 			<operations>
 				
-<!-- add tech levels -->				
+<!-- add tech levels, satisfy transhumanist -->				
                			<li Class="PatchOperationAdd"> <!-- this changes all Things with <ThingDef Name=""> ie. the parent Defs-->
                     			<xpath>Defs/ThingDef[@Name="Basic" or @Name="ArtificialMed"]</xpath>
                     				<value>
                         				<techLevel>Neolithic</techLevel>
+							<techHediffsTags>
+								<li>Simple</li>
+							</techHediffsTags>
                     				</value>
                 		</li>
                 		<li Class="PatchOperationAdd">
                     			<xpath>Defs/ThingDef[@Name="MechanicalMed" or @Name="AmbroisenMed"]</xpath>
                     				<value>
                        					<techLevel>Medieval</techLevel>
+							<techHediffsTags>
+								<li>Simple</li>
+							</techHediffsTags>
                     				</value>
                 		</li>
 
@@ -563,37 +569,45 @@
 		
 <!-- ambroisen parts -->
 				<li Class="PatchOperationAdd">
-                    			<xpath>Defs/HediffDef[defName="addedPartMedAmbroisen"]/addedPartProps</xpath>
+                    			<xpath>Defs/HediffDef[defName="addedPartMedAmbroisen"]</xpath>
                     				<value>
-                       					<isBionic>true</isBionic>
-							<betterThanNatural>true</betterThanNatural>
+                       					<isTechHediff>true</isTechHediff>
+							<tradeTags>
+								<li>TechHediff</li>
+   							 </tradeTags>
                    				</value>
 				</li>
 					
 <!-- Basic Parts -->
 				<li Class="PatchOperationAdd">
-                    			<xpath>Defs/HediffDef[defname="addedPartBasic"]/addedPartProps</xpath>
+                    			<xpath>Defs/HediffDef[defname="addedPartBasic"]</xpath>
                     				<value>
-                       					<isBionic>true</isBionic>
-							<betterThanNatural>true</betterThanNatural>
+                       					<isTechHediff>true</isTechHediff>
+							<tradeTags>
+								<li>TechHediff</li>
+   							 </tradeTags>
                    				</value>
 				</li>
 		
 <!-- Artifical Parts -->
 				<li Class="PatchOperationAdd">
-                    			<xpath>Defs/HediffDef[defname="addedPartMedArtificial"]/addedPartProps</xpath>
+                    			<xpath>Defs/HediffDef[defname="addedPartMedArtificial"]</xpath>
                     				<value>
-                       					<isBionic>true</isBionic>
-							<betterThanNatural>true</betterThanNatural>
+							<isTechHediff>true</isTechHediff>
+							<tradeTags>
+								<li>TechHediff</li>
+   							 </tradeTags>
                    				</value>
 				</li>
 		
 <!-- Mechanical Parts -->
 				<li Class="PatchOperationAdd">
-                    			<xpath>Defs/HediffDef[defname="addedPartMedArtificial"]/addedPartProps</xpath>
+                    			<xpath>Defs/HediffDef[defname="addedPartMedArtificial"]</xpath>
                     				<value>
-                       					<isBionic>true</isBionic>
-							<betterThanNatural>true</betterThanNatural>
+                       					<isTechHediff>true</isTechHediff>
+							<tradeTags>
+								<li>TechHediff</li>
+   							 </tradeTags>
                    				</value>
 				</li>
 				
