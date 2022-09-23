@@ -180,7 +180,7 @@
                     				</value>
                			</li>
 				
-<!--change wood and metal ingredients to use stuffed ingredients where possible -->
+<!--change wood and metal ingredients to use stuffed ingredients where possible + add emerald to ambroisen parts (magical)-->
 <!-- Basic -->
 				
 <!-- IronArm -->
@@ -222,6 +222,7 @@
 				<li Class="PatchOperationRemove">
           				<xpath>Defs/ThingDef[defName="WoodenFoot"]/costlist</xpath>
         			</li>
+				
 <!-- WoodenToe WoodenFinger WoodenNose -->
 				<li Class="PatchOperationAdd">
                     			<xpath>Defs/ThingDef[defName="WoodenToe" or defName="WoodenFinger" or defName="WoodenNose"]</xpath>
