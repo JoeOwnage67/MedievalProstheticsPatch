@@ -1,0 +1,21 @@
+<!-- hide old recipes from Chirurgie Patch for VFE liquors -->	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Chirurgie Patch</li> <!-- Chirurgie Patch Awan.Chirurgie.Patch -->
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Normal</success>
+			<operations>		
+			        <li Class="PatchOperationRemove">
+          				<xpath>Defs/RecipeDef[defName="latewinemed"]</xpath>
+        			</li>
+				<li Class="PatchOperationRemove">
+          				<xpath>Defs/RecipeDef[defName="settlermed"]</xpath>
+        			</li>
+				<li Class="PatchOperationRemove">
+          				<xpath>Defs/RecipeDef[defName="latemeadmed"]</xpath>
+        			</li>
+			</operations>
+   		 </match>
+	</Operation>
+</Patch>
