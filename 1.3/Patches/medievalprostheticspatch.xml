@@ -470,7 +470,7 @@
         			</li>
 			
 <!-- AmbroisenMedNose AmbroisenMedEye AmbroisenMedEar -->
-				li Class="PatchOperationAdd">
+				<li Class="PatchOperationAdd">
                     			<xpath>Defs/ThingDef[defName="AmbroisenMedNose" or defName="AmbroisenMedEye" or defName="AmbroisenMedEar"]</xpath>
                     				<value>
                         				<stuffCategories>
