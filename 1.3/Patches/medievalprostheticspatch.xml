@@ -143,48 +143,8 @@
                     				<value>
                         				<WorkToMake>7000</WorkToMake>
                     				</value>
-                		</li>
-              
-				
-<!-- use basic components from MO (commented out because I reconfigured the recipes below) -->
-				<!-- li Class="PatchOperationSetName"><!-- this changes all Things with <ThingDef ParentName=""> ie. the children Defs-->
-                                <!--	<xpath>Defs/ThingDef[@ParentName="MechanicalMed" or @ParentName="AmbroisenMed"]/costList/ComponentIndustrial</xpath>
-                                <!--	<name>DankPyon_ComponentBasic</name> 
-                           	<!--/li>
-				                   
+                		</li>            
 
-<!-- replace steel to iron for neolithic (commented out because I reconfigured the recipes below) -->
-				<!-- <li Class="PatchOperationSetName">
-					<xpath>Defs/ThingDef[@ParentName="Basic" or @ParentName="ArtificialMed"]/costList/Steel</xpath>
-						<name>DankPyon_IronIngot</name>
-				</li>
-			
-<!-- Change recipes for Ambroisen Prosthetics to include Emerald (commented out because I reconfigured the recipes below) -->
-										
-				<!-- <li Class="PatchOperationAdd">
-                    			<xpath>Defs/ThingDef[defName="AmbroisenMedHand" or defName="AmbroisenMedFoot" or defName="AmbroisenMedEye"]/costlist</xpath>
-                    				<value>
-                        				<DankPyon_Emerald>5</DankPyon_Emerald>
-                    				</value>
-               			</li>
-				 <li Class="PatchOperationAdd">
-                    			<xpath>Defs/ThingDef[defName="AmbroisenMedLeg" or defName="AmbroisenMedArm"]/costlist</xpath>
-                    				<value>
-                        				<DankPyon_Emerald>15</DankPyon_Emerald>
-                    				</value>
-               			</li>
-        			<li Class="PatchOperationAdd">
-                    			<xpath>Defs/ThingDef[defName="AmbroisenMedFinger" or defName="AmbroisenMedToe"]/costlist</xpath>
-                    				<value>
-                        				<DankPyon_Emerald>2</DankPyon_Emerald>
-                    				</value>
-               			</li>
-				<li Class="PatchOperationAdd">
-                    			<xpath>Defs/ThingDef[defName="AmbroisenMedEar" or defName="AmbroisenMedNose"]/costlist</xpath>
-                    				<value>
-                        				<DankPyon_Emerald>1</DankPyon_Emerald>
-                    				</value>
-               			</li>
 
 <!-- make all prosthetics craftable at MO Workbench and Crafting Spot -->
 				<li Class="PatchOperationAdd">
