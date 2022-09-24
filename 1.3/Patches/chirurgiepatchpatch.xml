@@ -4,7 +4,7 @@
 <!-- hide old recipes from Chirurgie Patch for VFE liquors -->	
 	<Operation Class="PatchOperationFindMod">
 		<mods>
-			<li>Awan.Chirurgie.Patch</li> <!-- Chirurgie Patch Awan.Chirurgie.Patch -->
+			<li>Chirurgie Patch</li> <!-- Chirurgie Patch Awan.Chirurgie.Patch -->
 		</mods>
 		<match Class="PatchOperationSequence">
 			<success>Normal</success>
