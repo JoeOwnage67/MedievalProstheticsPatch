@@ -88,7 +88,7 @@
 			    		<thingDefs>
            			   		<li>DankPyon_Ale</li>
 						<li>DankPyon_Cider</li>
-						<li>DankPyon_Mead</li>
+						<!-- <li>DankPyon_Mead</li> -->
 						<li>DankPyon_Wine</li>
 						<li>Beer</li>
 						<li MayRequire="SirMashedPotato.MorrowRim.AlcoholRemade">MorrowRim_CyrodiilicBrandy</li>
@@ -116,7 +116,7 @@
         			<li>Cloth</li>
 				<li>DankPyon_Ale</li>
 				<li>DankPyon_Cider</li>
-				<li>DankPyon_Mead</li>
+				<!-- <li>DankPyon_Mead</li> -->
 				<li>DankPyon_Wine</li>
 				<li>Beer</li>     
 				<li MayRequire="SirMashedPotato.MorrowRim.AlcoholRemade">MorrowRim_CyrodiilicBrandy</li>
