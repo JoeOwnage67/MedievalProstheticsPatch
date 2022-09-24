@@ -445,7 +445,7 @@
         			</li>
 				
 <!-- AmbroisenMedToe AmbroisenMedFinger -->
-				li Class="PatchOperationAdd">
+				<li Class="PatchOperationAdd">
                     			<xpath>Defs/ThingDef[defName="AmbroisenMedToe" or defName="AmbroisenMedFinger"]</xpath>
                     				<value>
                         				<stuffCategories>
