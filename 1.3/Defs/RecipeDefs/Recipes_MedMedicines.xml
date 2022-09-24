@@ -180,7 +180,7 @@
        			</li>
 		</ingredients>
     		<products>
-      			<MedicineParesianMM>1</MedicineParesianMMM>
+      			<MedicineParesianMM>1</MedicineParesianMM>
     		</products>
    		<fixedIngredientFilter>			
 			<thingDefs>
