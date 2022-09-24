@@ -8,7 +8,7 @@ namespace MM
     public class HediffComp_MMRegen : HediffComp
     {
         // Token: 0x04000048 RID: 72
-        public const string AYScar = "AYScarCreamHigh";
+        public const string MMScar = "MMScarCreamHigh";
 
         // Token: 0x04000049 RID: 73
         private int ticksToHeal;
@@ -78,7 +78,7 @@ namespace MM
                             candidates.Add(hediff);
                         }
                     }
-                    else if (Def.defName == "AYScarCreamHigh")
+                    else if (Def.defName == "MMScarCreamHigh")
                     {
                         if (hediff.IsPermanent() || hediff.def == HediffDefOf.Burn)
                         {
