@@ -526,51 +526,16 @@
 				</li>
 		
 <!-- Make prosthetics satisfy transhumanist trait -->
-		
-<!-- ambroisen parts -->
+
 				<li Class="PatchOperationAdd">
-                    			<xpath>Defs/HediffDef[defName="addedPartMedAmbroisen"]</xpath>
+                    			<xpath>Defs/HediffDef[defName="addedPartMedAmbroisen" or defname="addedPartMedArtificial" or defname="addedPartBasic"or defname="addedPartMedArtificial"]</xpath>
                     				<value>
                        					<isTechHediff>true</isTechHediff>
 							<tradeTags>
 								<li>TechHediff</li>
    							 </tradeTags>
                    				</value>
-				</li>
-					
-<!-- Basic Parts -->
-				<li Class="PatchOperationAdd">
-                    			<xpath>Defs/HediffDef[defname="addedPartBasic"]</xpath>
-                    				<value>
-                       					<isTechHediff>true</isTechHediff>
-							<tradeTags>
-								<li>TechHediff</li>
-   							 </tradeTags>
-                   				</value>
-				</li>
-		
-<!-- Artifical Parts -->
-				<li Class="PatchOperationAdd">
-                    			<xpath>Defs/HediffDef[defname="addedPartMedArtificial"]</xpath>
-                    				<value>
-							<isTechHediff>true</isTechHediff>
-							<tradeTags>
-								<li>TechHediff</li>
-   							 </tradeTags>
-                   				</value>
-				</li>
-		
-<!-- Mechanical Parts -->
-				<li Class="PatchOperationAdd">
-                    			<xpath>Defs/HediffDef[defname="addedPartMedArtificial"]</xpath>
-                    				<value>
-                       					<isTechHediff>true</isTechHediff>
-							<tradeTags>
-								<li>TechHediff</li>
-   							 </tradeTags>
-                   				</value>
-				</li>
-				
+				</li>	
 			</operations>				
 		</match>
 	</Operation>		
