@@ -2,7 +2,7 @@
 <Patch>
 	<Operation Class="PatchOperationFindMod">
 		<mods>
-			<li>Medieval Prosthetics</li> <!-- Medieval Prosthetics NunahurAlShamikh.MedP -->
+			<li>NunahurAlShamikh.MedP</li> <!-- Medieval Prosthetics NunahurAlShamikh.MedP -->
 		</mods>
 		<match Class="PatchOperationSequence">
 			<success>Normal</success>
