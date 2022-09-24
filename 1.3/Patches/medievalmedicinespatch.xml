@@ -4,7 +4,7 @@
 <!-- remove old recipes from Medieval Medicines -->	
 	<Operation Class="PatchOperationFindMod">
 		<mods>
-			<li>Medieval Medicines</li> <!-- Medieval Medicines NunahurAlShamikh.MedMed -->
+			<li>NunahurAlShamikh.MedMed</li> <!-- Medieval Medicines NunahurAlShamikh.MedMed -->
 		</mods>
 		<match Class="PatchOperationSequence">
 			<success>Normal</success>
