@@ -148,13 +148,13 @@
 
 <!-- make all prosthetics craftable at MO Workbench and Crafting Spot -->
 				<li Class="PatchOperationAdd">
-                    			<xpath>Defs/ThingDef[defName="Basic" or defName="ArtificialMed"]/recipeUsers</xpath>
+                    			<xpath>Defs/ThingDef[@Name="Basic" or @Name="ArtificialMed"]/recipeMaker/recipeUsers</xpath>
                     				<value>
                         				<li>DankPyon_Workbench</li>							
                     				</value>				
 				</li>
 				<li Class="PatchOperationAdd">
-                    			<xpath>Defs/ThingDef[defName=""MechanicalMed"" or defName="AmbroisenMed"]/recipeUsers</xpath>
+                    			<xpath>Defs/ThingDef[@Name="MechanicalMed" or @Name="AmbroisenMed"]/recipeMaker/recipeUsers</xpath>
                     				<value>
                         				<li>DankPyon_Workbench</li>	
 							<li>CraftingSpot</li>
@@ -175,7 +175,7 @@
                     				</value>				
 				</li>
 				<li Class="PatchOperationRemove">
-          				<xpath>Defs/ThingDef[defName="IronArm"]/costlist</xpath>
+          				<xpath>Defs/ThingDef[defName="IronArm"]/costList</xpath>
         			</li>
 				
 <!--ProstheticHook -->
@@ -189,7 +189,7 @@
                     				</value>				
 				</li>
 				<li Class="PatchOperationRemove">
-          				<xpath>Defs/ThingDef[defName="ProstheticHook"]/costlist</xpath>
+          				<xpath>Defs/ThingDef[defName="ProstheticHook"]/costList</xpath>
         			</li>
 				
 <!-- WoodenFoot -->
@@ -203,7 +203,7 @@
                     				</value>				
 				</li>
 				<li Class="PatchOperationRemove">
-          				<xpath>Defs/ThingDef[defName="WoodenFoot"]/costlist</xpath>
+          				<xpath>Defs/ThingDef[defName="WoodenFoot"]/costList</xpath>
         			</li>
 				
 <!-- WoodenToe WoodenFinger WoodenNose -->
@@ -217,7 +217,7 @@
                     				</value>				
 				</li>
 				<li Class="PatchOperationRemove">
-          				<xpath>Defs/ThingDef[defName="WoodenToe" or defName="WoodenFinger" or defName="WoodenNose"]/costlist</xpath>
+          				<xpath>Defs/ThingDef[defName="WoodenToe" or defName="WoodenFinger" or defName="WoodenNose"]/costList</xpath>
         			</li>
 			
 <!-- EyePatch EarPatch -->
@@ -231,7 +231,7 @@
                     				</value>				
 				</li>
 				<li Class="PatchOperationRemove">
-          				<xpath>Defs/ThingDef[defName="EyePatch" or defName="EarPatch"]/costlist</xpath>
+          				<xpath>Defs/ThingDef[defName="EyePatch" or defName="EarPatch"]/costList</xpath>
         			</li>
 				
 <!-- Artificial -->
@@ -247,7 +247,7 @@
                     				</value>				
 				</li>
 				<li Class="PatchOperationReplace">
-          				<xpath>Defs/ThingDef[defName="ArtificialMedHand"]/costlist</xpath>
+          				<xpath>Defs/ThingDef[defName="ArtificialMedHand"]/costList</xpath>
 					<value>
 						<WoodLog>10</WoodLog>
 					</value>
@@ -264,7 +264,7 @@
                     				</value>				
 				</li>
 				<li Class="PatchOperationReplace">
-          				<xpath>Defs/ThingDef[defName="ArtificialMedHand" or defName="ArtificialMedLeg"]/costlist</xpath>
+          				<xpath>Defs/ThingDef[defName="ArtificialMedHand" or defName="ArtificialMedLeg"]/costList</xpath>
 					<value>
 						<WoodLog>25</WoodLog>
 					</value>
@@ -281,7 +281,7 @@
                     				</value>				
 				</li>
 				<li Class="PatchOperationReplace">
-          				<xpath>Defs/ThingDef[defName="ArtificialMedToe" or defName="ArtificialMedFinger"]/costlist</xpath>
+          				<xpath>Defs/ThingDef[defName="ArtificialMedToe" or defName="ArtificialMedFinger"]/costList</xpath>
 					<value>
 						<WoodLog>5</WoodLog>
 					</value>
@@ -289,7 +289,7 @@
 				
 <!-- ArtificialMedNose ArtificialMedEye ArtificialMedEar -->
 				<li Class="PatchOperationAdd">
-                    			<xpath>Defs/ThingDef[defName="ArtificialMedNose" or defName="ArtificialMedFinger or defName="ArtificialMedEar"]</xpath>
+                    			<xpath>Defs/ThingDef[defName="ArtificialMedNose" or defName="ArtificialMedFinger" or defName="ArtificialMedEar"]</xpath>
                     				<value>
                         				<stuffCategories>
 								<li>Woody</li>
@@ -298,7 +298,7 @@
                     				</value>				
 				</li>
 				<li Class="PatchOperationRemove">
-          				<xpath>Defs/ThingDef[defName="ArtificialMedToe" or defName="ArtificialMedFinger"]/costlist</xpath>					
+          				<xpath>Defs/ThingDef[defName="ArtificialMedToe" or defName="ArtificialMedFinger"]/costList</xpath>					
         			</li>
 				
 <!-- Mechanical -->
@@ -314,7 +314,7 @@
                     				</value>
 				</li>
 				<li Class="PatchOperationReplace">
-          				<xpath>Defs/ThingDef[defName="MechanicalMedHand" or defName="MechanicalMedFoot"]/costlist</xpath>
+          				<xpath>Defs/ThingDef[defName="MechanicalMedHand" or defName="MechanicalMedFoot"]/costList</xpath>
 					<value>
 						<DankPyon_ComponentBasic>3</DankPyon_ComponentBasic>
 					</value>
@@ -331,7 +331,7 @@
                     				</value>
 				</li>
 				<li Class="PatchOperationReplace">
-                    			<xpath>Defs/ThingDef[defName="MechanicalMedArm" or defName="MechanicalMedLeg"]/costlist</xpath>
+                    			<xpath>Defs/ThingDef[defName="MechanicalMedArm" or defName="MechanicalMedLeg"]/costList</xpath>
                     				<value>
 							<DankPyon_ComponentBasic>6</DankPyon_ComponentBasic>	
                     				</value>
@@ -348,7 +348,7 @@
                     				</value>
 				</li>
 				<li Class="PatchOperationReplace">
-                    			<xpath>Defs/ThingDef[defName="MechanicalMedToe" or defName="MechanicalMedFinger"]/costlist</xpath>
+                    			<xpath>Defs/ThingDef[defName="MechanicalMedToe" or defName="MechanicalMedFinger"]/costList</xpath>
                     				<value>
 							<DankPyon_ComponentBasic>1</DankPyon_ComponentBasic>	
                     				</value>
@@ -365,7 +365,7 @@
                     				</value>
 				</li>
 				<li Class="PatchOperationRemove">
-          				<xpath>Defs/ThingDef[defName="MechanicalMedNose" or defName="MechanicalMedEye" or defName="MechanicalMedEar"]/costlist</xpath>
+          				<xpath>Defs/ThingDef[defName="MechanicalMedNose" or defName="MechanicalMedEye" or defName="MechanicalMedEar"]/costList</xpath>
 			   	</li>
 				
 <!-- Ambroisen -->
@@ -381,7 +381,7 @@
                     				</value>
 				</li>
 				<li Class="PatchOperationReplace">
-                    			<xpath>Defs/ThingDef[defName="AmbroisenMedHand" or defName="AmbroisenMedFoot"]/costlist</xpath>
+                    			<xpath>Defs/ThingDef[defName="AmbroisenMedHand" or defName="AmbroisenMedFoot"]/costList</xpath>
                     				<value>
 							<DankPyon_ComponentBasic>10</DankPyon_ComponentBasic>	
 							<DankPyon_Emerald>5</DankPyon_Emerald>
@@ -401,7 +401,7 @@
                     				</value>
 				</li>
 				<li Class="PatchOperationReplace">
-                    			<xpath>Defs/ThingDef[defName="AmbroisenMedArm" or defName="AmbroisenMedLeg"]/costlist</xpath>
+                    			<xpath>Defs/ThingDef[defName="AmbroisenMedArm" or defName="AmbroisenMedLeg"]/costList</xpath>
                     				<value>
 							<DankPyon_ComponentBasic>15</DankPyon_ComponentBasic>
 							<DankPyon_Emerald>15</DankPyon_Emerald>
@@ -421,7 +421,7 @@
                     				</value>
 				</li>
 				<li Class="PatchOperationReplace">
-                    			<xpath>Defs/ThingDef[defName="AmbroisenMedToe" or defName="AmbroisenMedFinger"]/costlist</xpath>
+                    			<xpath>Defs/ThingDef[defName="AmbroisenMedToe" or defName="AmbroisenMedFinger"]/costList</xpath>
                     				<value>
 							<DankPyon_ComponentBasic>5</DankPyon_ComponentBasic>
 							<DankPyon_Emerald>2</DankPyon_Emerald>
@@ -441,7 +441,7 @@
                     				</value>
 				</li>
 				<li Class="PatchOperationReplace">
-                    			<xpath>Defs/ThingDef[defName="AmbroisenMedNose" or defName="AmbroisenMedEye" or defName="AmbroisenMedEar"]/costlist</xpath>
+                    			<xpath>Defs/ThingDef[defName="AmbroisenMedNose" or defName="AmbroisenMedEye" or defName="AmbroisenMedEar"]/costList</xpath>
                     				<value>
 							<DankPyon_ComponentBasic>5</DankPyon_ComponentBasic>
 							<DankPyon_Emerald>2</DankPyon_Emerald>
@@ -454,13 +454,12 @@
 				<li Class="PatchOperationReplace">
                     			<xpath>Defs/HediffDef[defName="AmbroisenMedEar" or defName="AmbroisenMedNose" or defName="AmbroisenMedEye"]/addedPartProps</xpath>
                     				<value>
-                       					<partEfficiency>0.70</partEfficiency>
-                   				</value>
+                       					<partEfficiency>0.70</partEfficiency>                  				</value>
 				</li>
 					
 <!-- adjust efficiency of Basic Parts -->
 				<li Class="PatchOperationReplace">
-                    			<xpath>Defs/HediffDef[defname="addedPartBasic"]/addedPartProps</xpath>
+                    			<xpath>Defs/HediffDef[defName="IronArm" or defName="ProstheticHook" or defName="WoodenFoot" or defName="WoodenToe" or defName="WoodenFinger" or defName="WoodenNose" or defName="EyePatch" or defName="EarPatch"]/addedPartProps</xpath>
                     				<value>
                        					<partEfficiency>0.50</partEfficiency>
                    				</value>
@@ -468,7 +467,7 @@
 		
 <!-- adjust efficiency of Artifical Parts -->
 				<li Class="PatchOperationReplace">
-                    			<xpath>Defs/HediffDef[defname="addedPartMedArtificial"]/addedPartProps</xpath>
+                    			<xpath>Defs/HediffDef[defName="ArtificialMedHand" or defName="ArtificialMedArm" or defName="ArtificialMedLeg" or defName="ArtificialMedFoot" or defName="ArtificialMedToe" or defName="ArtificialMedFinger" or defName="ArtificialMedNose" or defName="ArtificialMedEye" or defName="ArtificialMedEar"]/addedPartProps</xpath>
                     				<value>
                        					<partEfficiency>0.65</partEfficiency>
                    				</value>
@@ -476,7 +475,7 @@
 		
 <!-- adjust efficiency of Mechanical Parts -->
 				<li Class="PatchOperationReplace">
-                    			<xpath>Defs/HediffDef[defname="addedPartMedArtificial"]/addedPartProps</xpath>
+                    			<xpath>Defs/HediffDef[defName="MechanicalMedHand" or defName="MechanicalMedArm" or defName="MechanicalMedLeg" or defName="MechanicalMedFoot" or defName="MechanicalMedToe" or defName="MechanicalMedFinger" or defName="MechanicalMedNose" or defName="MechanicalMedEye" or defName="MechanicalMedEar"]/addedPartProps</xpath>
                     				<value>
                        					<partEfficiency>0.80</partEfficiency>
                    				</value>
@@ -485,7 +484,7 @@
 <!-- Make prosthetics satisfy transhumanist trait -->
 
 				<li Class="PatchOperationAdd">
-                    			<xpath>Defs/HediffDef[defName="addedPartMedAmbroisen" or defname="addedPartMedArtificial" or defname="addedPartBasic"or defname="addedPartMedArtificial"]</xpath>
+                    			<xpath>Defs/HediffDef[@Name="addedPartMedAmbroisen" or @Name="addedPartMedArtificial" or @Name="addedPartBasic"or @Name="addedPartMedArtificial"]</xpath>
                     				<value>
                        					<isTechHediff>true</isTechHediff>
 							<tradeTags>
