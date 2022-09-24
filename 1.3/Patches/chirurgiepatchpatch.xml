@@ -6,7 +6,7 @@
 		<mods>
 			<li>Chirurgie Patch</li> <!-- Chirurgie Patch Awan.Chirurgie.Patch -->
 		</mods>
-		<match Class="PatchOperationSequence">
+		<!-- <match Class="PatchOperationSequence"> 
 			<success>Normal</success>
 			<operations>		
 			        <li Class="PatchOperationRemove">
@@ -21,4 +21,4 @@
 			</operations>
    		 </match>
 	</Operation>
-</Patch>
+</Patch> -->
