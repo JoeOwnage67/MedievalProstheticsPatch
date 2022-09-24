@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<RecipeDefs>
+<Defs>
   
   <!-- Attempting to rewrite medicine recipes from Medieval Medicines to use alcohol varieties available in MO, MorrowRim Alcohol Remade, VFE  -->
   
@@ -194,5 +194,5 @@
 			<li>LateMedievalMedicine</li>
 	</researchPrerequisites>
 </RecipeDef>
-</RecipeDefs>
+</Defs>
 
