@@ -207,7 +207,7 @@
 					
 <!-- adjust efficiency of Basic Parts -->	
 				<li Class="PatchOperationReplace">
-                    			<xpath>Defs/HediffDef[defName="IronArm" or defName="ProstheticHook" or defName="WoodenFoot" or defName="WoodenToe" or defName="WoodenFinger" or defName="WoodenNose" or defName="EyePatch" or defName="EarPatch"]/addedPartProps</xpath>
+                    			<xpath>Defs/HediffDef[defName="IronArm" or defName="ProstheticHook" or defName="WoodenFoot" or defName="WoodenToe" or defName="WoodenFinger"]/addedPartProps</xpath>
                     				<value>
                        					<addedPartProps>
 								<solid>true</solid>
@@ -218,7 +218,7 @@
 		
 <!-- adjust efficiency of Artifical Parts -->
 				<li Class="PatchOperationReplace">
-                    			<xpath>Defs/HediffDef[defName="ArtificialMedHand" or defName="ArtificialMedArm" or defName="ArtificialMedLeg" or defName="ArtificialMedFoot" or defName="ArtificialMedToe" or defName="ArtificialMedFinger" or defName="ArtificialMedNose" or defName="ArtificialMedEye" or defName="ArtificialMedEar"]/addedPartProps</xpath>
+                    			<xpath>Defs/HediffDef[defName="ArtificialMedHand" or defName="ArtificialMedArm" or defName="ArtificialMedLeg" or defName="ArtificialMedFoot" or defName="ArtificialMedToe" or defName="ArtificialMedFinger"]/addedPartProps</xpath>
                     				<value>
                        					<addedPartProps>
 								<solid>true</solid>
@@ -229,7 +229,7 @@
 		
 <!-- adjust efficiency of Mechanical Parts -->
 				<li Class="PatchOperationReplace">
-                    			<xpath>Defs/HediffDef[defName="MechanicalMedHand" or defName="MechanicalMedArm" or defName="MechanicalMedLeg" or defName="MechanicalMedFoot" or defName="MechanicalMedToe" or defName="MechanicalMedFinger" or defName="MechanicalMedNose" or defName="MechanicalMedEye" or defName="MechanicalMedEar"]/addedPartProps</xpath>
+                    			<xpath>Defs/HediffDef[defName="MechanicalMedHand" or defName="MechanicalMedArm" or defName="MechanicalMedLeg" or defName="MechanicalMedFoot" or defName="MechanicalMedToe" or defName="MechanicalMedFinger"]/addedPartProps</xpath>
                     				<value>
                        					<addedPartProps>
 								<solid>true</solid>
