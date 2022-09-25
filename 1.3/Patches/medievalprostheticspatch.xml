@@ -203,7 +203,7 @@
 					
 <!-- adjust efficiency of Basic Parts -->
 				<li Class="PatchOperationReplace">
-					<xpath>Defs/HediffDef[defName="IronArm" or defName="ProstheticHook" or defName="WoodenFoot" or defName="WoodenToe" or defName="WoodenFinger" or defName="WoodenNose" or defName="EyePatch" or defName="EarPatch"]/addedPartProps
+					<xpath>Defs/HediffDef[defName="IronArm" or defName="ProstheticHook" or defName="WoodenFoot" or defName="WoodenToe" or defName="WoodenFinger" or defName="WoodenNose" or defName="EyePatch" or defName="EarPatch"]/addedPartProps</xpath>
 						<value>
 							<addedPartProps></addedPartProps>
                    				</value>
