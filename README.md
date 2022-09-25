@@ -1,13 +1,13 @@
 # NewMedievalProstheticsPatch
 Medieval Prosthetics Patch for Medieval Overhaul (Rimworld)
 
-Medieval Prosthetics which is a collection of prosthetic limbs that are a fusion of reality and fantasy to give more prosthetic options to medieval runs, originally created by Nuno.
+Medieval Prosthetics is a collection of prosthetic limbs that are a fusion of reality and fantasy to give more prosthetic options to medieval runs, originally created by Nuno.
 
 This is an update of an existing patch (Medieval Prosthetics Recipes Patch for Medieval Overhaul and Rimedieval) I made for Nuno's Medieval Replacements mods, as well as Awan's Chirurgie Patch which also affects those mods. The goal was to make them more compatible with SirLalaPyon's Medieval Overhaul and my own gameplay style. I spoke to all parties and got permission to do this.
 
-I have also incorporated certain elements of Apothecary (Continued) with permission from Mlie.
+I also plan to incorporate certain elements of Apothecary (Continued) with permission from Mlie.
 
-Load after Medieval Overhaul, Medieval Prosthetics, Medieval Medicines, Entosomnia - Medieval Cryptosleep, and Chirurgie Patch.
+Load after Medieval Overhaul, Medieval Prosthetics, Medieval Medicines, and Chirurgie Patch.
 
 Thanks to SirLalaPyon, Nuno, Awan, Ogam, TruGerman, dltslt, SirMashedPotato and Mlie for all of their mods and their help.
 
