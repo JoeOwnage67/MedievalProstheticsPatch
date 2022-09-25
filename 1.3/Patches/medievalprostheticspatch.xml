@@ -236,17 +236,7 @@
 								<partEfficiency>0.80</partEfficiency>							
 							</addedPartProps>
                    				</value>
-				</li>
-			
-		
-<!-- Make prosthetics satisfy transhumanist trait -->
-
-				<li Class="PatchOperationAdd">
-                    			<xpath>Defs/HediffDef[@Name="addedPartMedAmbroisen" or @Name="addedPartMedArtificial" or @Name="addedPartBasic"or @Name="addedPartMedArtificial"]</xpath>
-                    				<value>
-                       					<isTechHediff>true</isTechHediff>						
-                   				</value>
-				</li>	
+				</li>		
 			</operations>				
 		</match>
 	</Operation>		
