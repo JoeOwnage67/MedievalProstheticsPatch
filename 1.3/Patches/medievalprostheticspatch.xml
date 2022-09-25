@@ -230,10 +230,7 @@
 				<li Class="PatchOperationAdd">
                     			<xpath>Defs/HediffDef[@Name="addedPartMedAmbroisen" or @Name="addedPartMedArtificial" or @Name="addedPartBasic"or @Name="addedPartMedArtificial"]</xpath>
                     				<value>
-                       					<isTechHediff>true</isTechHediff>
-							<tradeTags>
-								<li>TechHediff</li>
-   							 </tradeTags>
+                       					<isTechHediff>true</isTechHediff>						
                    				</value>
 				</li>	
 			</operations>				
