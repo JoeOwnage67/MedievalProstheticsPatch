@@ -238,7 +238,7 @@
 				
 <!-- ArtificialMedHand ArtificialMedFoot -->
 				<li Class="PatchOperationReplace">
-                    			<xpath>Defs/ThingDef[defName="ArtificialMedHand" or defName="ArtificialMedFoot"]costList</xpath>
+                    			<xpath>Defs/ThingDef[defName="ArtificialMedHand" or defName="ArtificialMedFoot"]/costList</xpath>
                     				<value>
                         				<stuffCategories>
 								<li>Metallic</li>
