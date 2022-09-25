@@ -11,7 +11,6 @@
 	<loadAfter>
 		<li>DankPyon.Medieval.Overhaul</li>
 		<li>NunahurAlShamikh.MedMed</li>
-		<li>NunahurAlShamikh.Entosomnia</li>
 		<li>NunahurAlShamikh.MedP</li>
 		<li>Awan.Chirurgie.Patch</li>
 	</loadAfter>
@@ -26,10 +25,6 @@
 		<displayName>Medieval Medicines</displayName>
 	  </li>
 	  <li>
-		<packageId>NunahurAlShamikh.Entosomnia</packageId>
-		<displayName>Entosomnia - Medieval Cryptosleep</displayName>
-		</li>
-	  <li>
 		<packageId>NunahurAlShamikh.MedP</packageId>
 		<displayName>Medieval Prosthetics</displayName>
 		</li>
@@ -38,5 +33,5 @@
 		<displayName>Chirurgie Patch</displayName>
     </li>
 	</modDependencies>
-	<description>Patches Medieval Medicine, Prosthetics, Entosomnia, Chirurgie Patch for Medieval Overhaul Compatibility</description>
+	<description>Patches Medieval Medicine, Prosthetics, Chirurgie Patch for Medieval Overhaul Compatibility</description>
 </ModMetaData>
