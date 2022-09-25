@@ -240,12 +240,32 @@
 				<li Class="PatchOperationReplace">
                     			<xpath>Defs/ThingDef[defName="ArtificialMedHand" or defName="ArtificialMedFoot"]/costList</xpath>
                     				<value>
-                        				<stuffCategories>
-								<li>Metallic</li>
-							</stuffCategories>
 							<costStuffCount>55</costStuffCount>
                     				</value>				
 				</li>
+				<li Class="PatchOperationInsert">
+                    			<xpath>Defs/ThingDef[defName="ArtificialMedHand" or defName="ArtificialMedFoot"]/costList</xpath>
+                    				<value>
+							<stuffCategories></stuffCategories>
+                    				</value>				
+				</li>
+				<li Class="PatchOperationAdd">
+                    			<xpath>Defs/ThingDef[defName="ArtificialMedHand" or defName="ArtificialMedFoot"]/stuffCategories</xpath>
+                    				<value>
+							<li>Metallic</li>
+                    				</value>				
+				</li>
+				<li Class="PatchOperationInsert">
+                    			<xpath>Defs/ThingDef[defName="ArtificialMedHand" or defName="ArtificialMedFoot"]/stuffCategories</xpath>
+                    				<value>
+							<costList></costList>
+                    				</value>				
+				</li>
+				<li Class="PatchOperationAdd">
+                    			<xpath>Defs/ThingDef[defName="ArtificialMedHand" or defName="ArtificialMedFoot"]/costList</xpath>
+                    				<value>
+							<WoodLog>10</WoodLog>
+                    				</value>
 				
 				
 <!-- ArtificialMedArm ArtificialMedLeg -->
