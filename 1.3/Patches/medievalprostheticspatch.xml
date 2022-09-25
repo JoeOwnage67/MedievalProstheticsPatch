@@ -203,8 +203,15 @@
 					
 <!-- adjust efficiency of Basic Parts -->
 				<li Class="PatchOperationReplace">
+					<xpath>Defs/HediffDef[defName="IronArm" or defName="ProstheticHook" or defName="WoodenFoot" or defName="WoodenToe" or defName="WoodenFinger" or defName="WoodenNose" or defName="EyePatch" or defName="EarPatch"]/addedPartProps
+						<value>
+							<addedPartProps></addedPartProps>
+                   				</value>
+				</li>						
+				<li Class="PatchOperationAdd">
                     			<xpath>Defs/HediffDef[defName="IronArm" or defName="ProstheticHook" or defName="WoodenFoot" or defName="WoodenToe" or defName="WoodenFinger" or defName="WoodenNose" or defName="EyePatch" or defName="EarPatch"]/addedPartProps</xpath>
                     				<value>
+							<solid>true</solid>
                        					<partEfficiency>0.50</partEfficiency>
                    				</value>
 				</li>
@@ -213,7 +220,14 @@
 				<li Class="PatchOperationReplace">
                     			<xpath>Defs/HediffDef[defName="ArtificialMedHand" or defName="ArtificialMedArm" or defName="ArtificialMedLeg" or defName="ArtificialMedFoot" or defName="ArtificialMedToe" or defName="ArtificialMedFinger" or defName="ArtificialMedNose" or defName="ArtificialMedEye" or defName="ArtificialMedEar"]/addedPartProps</xpath>
                     				<value>
-                       					<partEfficiency>0.65</partEfficiency>
+                       					<addedPartProps></addedPartProps>
+                   				</value>
+				</li>
+				<li Class="PatchOperationReplace">
+                    			<xpath>Defs/HediffDef[defName="ArtificialMedHand" or defName="ArtificialMedArm" or defName="ArtificialMedLeg" or defName="ArtificialMedFoot" or defName="ArtificialMedToe" or defName="ArtificialMedFinger" or defName="ArtificialMedNose" or defName="ArtificialMedEye" or defName="ArtificialMedEar"]/addedPartProps</xpath>
+                    				<value>
+                       					<solid>true</solid>
+							<partEfficiency>0.65</partEfficiency>
                    				</value>
 				</li>
 		
@@ -221,7 +235,14 @@
 				<li Class="PatchOperationReplace">
                     			<xpath>Defs/HediffDef[defName="MechanicalMedHand" or defName="MechanicalMedArm" or defName="MechanicalMedLeg" or defName="MechanicalMedFoot" or defName="MechanicalMedToe" or defName="MechanicalMedFinger" or defName="MechanicalMedNose" or defName="MechanicalMedEye" or defName="MechanicalMedEar"]/addedPartProps</xpath>
                     				<value>
-                       					<partEfficiency>0.80</partEfficiency>
+                       					<addedPartProps></addedPartProps>
+                   				</value>
+				</li>
+				<li Class="PatchOperationReplace">
+                    			<xpath>Defs/HediffDef[defName="MechanicalMedHand" or defName="MechanicalMedArm" or defName="MechanicalMedLeg" or defName="MechanicalMedFoot" or defName="MechanicalMedToe" or defName="MechanicalMedFinger" or defName="MechanicalMedNose" or defName="MechanicalMedEye" or defName="MechanicalMedEar"]/addedPartProps</xpath>
+                    				<value>
+                       					<solid>true</solid>
+							<partEfficiency>0.80</partEfficiency>
                    				</value>
 				</li>
 		
