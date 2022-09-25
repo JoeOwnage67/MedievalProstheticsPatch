@@ -25,10 +25,8 @@ What this mod does:
 
 - Added support for all of Medieval Overhaul's alcoholic items to work as ingredients when creating medicines that require alcohol. Various alcohols from Morrowrim - Alcohol Remade are also supported but mod is not required. There is also support for VFE Medieval's Wine, VFE Settlers' Chemshine and VFE Vikings' Mead, but none of them are required either.
 
-- Scar cream from Apothecary (Continued) has been added, which is a way to remedy your colony's various scars. Apothecary is not required, but if you choose to install it there should be no conflict with this mod.
-
-- All Medieval Medicines and Scar Cream are craftable at the Drug Lab, Medieval Overhaul Workbench, and Crafting Spot.
+- All Medieval Medicines are craftable at the Drug Lab, Medieval Overhaul Workbench, and Crafting Spot.
 
 - All Medieval Prosthetics are craftable at the Medieval Overhaul Workbench and Crafting Spot.
 
-- Prosthetics should now satisfy Transhumanist trait.
+- Prosthetics should now satisfy Transhumanist trait. 
