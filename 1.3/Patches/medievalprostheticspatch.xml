@@ -282,7 +282,7 @@
 				
 <!-- ArtificialMedHand ArtificialMedFoot -->
 				<li Class="PatchOperationAdd">
-                    			<xpath>Defs/ThingDef[defName="ArtificialMedArm"]</xpath>
+                    			<xpath>Defs/ThingDef[defName="ArtificialMedHand" or defName="ArtificialMedFoot"]</xpath>
                     				<value>
                         				<stuffCategories>
 								<li>Metallic</li>
@@ -291,7 +291,7 @@
                     				</value>				
 				</li>
 				<li Class="PatchOperationReplace">
-          				<xpath>Defs/ThingDef[defName="ArtificialMedHand" or defName="ArtificialMedLeg"]/costList</xpath>
+          				<xpath>Defs/ThingDef[defName="ArtificialMedHand" or defName="ArtificialMedFoot"]/costList</xpath>
 					<value>
 						<costList>
 							<WoodLog>10</WoodLog>
@@ -302,7 +302,7 @@
 				
 <!-- ArtificialMedArm ArtificialMedLeg -->
 				<li Class="PatchOperationAdd">
-                    			<xpath>Defs/ThingDef[defName="ArtificialMedArm"]</xpath>
+                    			<xpath>Defs/ThingDef[defName="ArtificialMedArm" or defName="ArtificialMedLeg"]</xpath>
                     				<value>
                         				<stuffCategories>
 								<li>Metallic</li>
@@ -311,7 +311,7 @@
                     				</value>				
 				</li>
 				<li Class="PatchOperationReplace">
-          				<xpath>Defs/ThingDef[defName="ArtificialMedHand" or defName="ArtificialMedLeg"]/costList</xpath>
+          				<xpath>Defs/ThingDef[defName="ArtificialMedArm" or defName="ArtificialMedLeg"]/costList</xpath>
 					<value>
 						<costList>
 							<WoodLog>25</WoodLog>
@@ -340,7 +340,7 @@
 				
 <!-- ArtificialMedNose ArtificialMedEye ArtificialMedEar -->
 				<li Class="PatchOperationAdd">
-                    			<xpath>Defs/ThingDef[defName="ArtificialMedNose" or defName="ArtificialMedFinger" or defName="ArtificialMedEar"]</xpath>
+                    			<xpath>Defs/ThingDef[defName="ArtificialMedNose" or defName="ArtificialMedEye" or defName="ArtificialMedEar"]</xpath>
                     				<value>
                         				<stuffCategories>
 								<li>Woody</li>
@@ -349,7 +349,7 @@
                     				</value>				
 				</li>
 				<li Class="PatchOperationRemove">
-          				<xpath>Defs/ThingDef[defName="ArtificialMedToe" or defName="ArtificialMedFinger"]/costList</xpath>					
+          				<xpath>Defs/ThingDef[defName="ArtificialMedNose" or defName="ArtificialMedEye" or defName="ArtificialMedEar"]/costList</xpath>					
         			</li>
 				
 <!-- Mechanical -->
