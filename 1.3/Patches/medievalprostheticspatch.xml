@@ -246,7 +246,11 @@
 							<costStuffCount>55</costStuffCount>
                     				</value>				
 				</li>
-				<li Class="PatchOperationReplace">
+				<li Class="PatchOperationRemove">
+          				<xpath>Defs/ThingDef[defName="ArtificialMedHand"]/costList</xpath>
+        			</li>
+			
+				<li Class="PatchOperationAdd">
           				<xpath>Defs/ThingDef[defName="ArtificialMedHand"]/costList</xpath>
 					<value>
 						<WoodLog>10</WoodLog>
