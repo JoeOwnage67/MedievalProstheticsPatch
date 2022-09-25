@@ -517,73 +517,73 @@
 				
 <!-- Fixing up some odd labels and descriptions and making functionality clearer -->
 				<li Class="PatchOperationReplace">
-                    			<xpath>Defs/ThingDef[defNName="MechanicalMedEar"]/label</xpath>
+                    			<xpath>Defs/ThingDef[defName="MechanicalMedEar"]/label</xpath>
                     				<value>
 							<label>Mechanical Ear</label>
                     				</value>
 				</li>
 				<li Class="PatchOperationReplace">
-                    			<xpath>Defs/ThingDef[defNName="MechanicalMedEar"]/description</xpath>
+                    			<xpath>Defs/ThingDef[defName="MechanicalMedEar"]/description</xpath>
                     				<value>
 							<description>A fairly convincing non-functional facsimile of an ear.</description>
                     				</value>
 				</li>
 				<li Class="PatchOperationReplace">
-                    			<xpath>Defs/ThingDef[defNName="MechanicalMedEye"]/label</xpath>
+                    			<xpath>Defs/ThingDef[defName="MechanicalMedEye"]/label</xpath>
                     				<value>
 							<label>Mechanical Ear</label>
                     				</value>
 				</li>
 				<li Class="PatchOperationReplace">
-                    			<xpath>Defs/ThingDef[defNName="MechanicalMedEye"]/description</xpath>
+                    			<xpath>Defs/ThingDef[defName="MechanicalMedEye"]/description</xpath>
                     				<value>
 							<description>A fairly convincing non-functional facsimile of an eye.</description>
                     				</value>
 				</li>
 				<li Class="PatchOperationReplace">
-                    			<xpath>Defs/ThingDef[defNName="MechanicalMedNose"]/label</xpath>
+                    			<xpath>Defs/ThingDef[defName="MechanicalMedNose"]/label</xpath>
                     				<value>
 							<label>Mechanical Ear</label>
                     				</value>
 				</li>
 				<li Class="PatchOperationReplace">
-                    			<xpath>Defs/ThingDef[defNName="MechanicalMedNose"]/description</xpath>
+                    			<xpath>Defs/ThingDef[defName="MechanicalMedNose"]/description</xpath>
                     				<value>
 							<description>A fairly convincing non-functional facsimile of a nose.</description>
                     				</value>
 				</li>
 				<li Class="PatchOperationReplace">
-                    			<xpath>Defs/ThingDef[defNName="ArtificialMedEar"]/description</xpath>
+                    			<xpath>Defs/ThingDef[defName="ArtificialMedEar"]/description</xpath>
                     				<value>
 							<description>An non-functional artificial ear. Looks better than a hole in your head. You might not scare the children as much.</description>
                     				</value>
 				</li>
 				<li Class="PatchOperationReplace">
-                    			<xpath>Defs/ThingDef[defNName="ArtificialMedEye"]/description</xpath>
+                    			<xpath>Defs/ThingDef[defName="ArtificialMedEye"]/description</xpath>
                     				<value>
 							<description>An non-functional artificial eye. Looks better than a hole in your head. You might not scare the children as much.</description>
                     				</value>
 				</li>
 				<li Class="PatchOperationReplace">
-                    			<xpath>Defs/ThingDef[defNName="ArtificialMedNose"]/description</xpath>
+                    			<xpath>Defs/ThingDef[defName="ArtificialMedNose"]/description</xpath>
                     				<value>
 							<description>A non-functional artificial nose. Looks better than a hole in your head. You might not scare the children as much.</description>
                     				</value>
 				</li>
 				<li Class="PatchOperationReplace">
-                    			<xpath>Defs/ThingDef[defNName="AmbroisenMedEar"]/description</xpath>
+                    			<xpath>Defs/ThingDef[defName="AmbroisenMedEar"]/description</xpath>
                     				<value>
 							<description>An enchanted functional ear replacement. It's magic! You can hear again!</description>
                     				</value>
 				</li>
 				<li Class="PatchOperationReplace">
-                    			<xpath>Defs/ThingDef[defNName="AmbroisenMedEye"]/description</xpath>
+                    			<xpath>Defs/ThingDef[defName="AmbroisenMedEye"]/description</xpath>
                     				<value>
 							<description>An enchanted functional eye replacement. It's magic! You can see again!</description>
                     				</value>
 				</li>
 				<li Class="PatchOperationReplace">
-                    			<xpath>Defs/ThingDef[defNName="AmbroisenMedNose"]/description</xpath>
+                    			<xpath>Defs/ThingDef[defName="AmbroisenMedNose"]/description</xpath>
                     				<value>
 							<description>An enchanted functional nose replacement. It's magic! You can smell again!</description>
                     				</value>
