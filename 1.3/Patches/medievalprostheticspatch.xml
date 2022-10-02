@@ -531,7 +531,7 @@
 				<li Class="PatchOperationReplace">
                     			<xpath>Defs/ThingDef[defName="MechanicalMedEye"]/label</xpath>
                     				<value>
-							<label>Mechanical Ear</label>
+							<label>Mechanical Eye</label>
                     				</value>
 				</li>
 				<li Class="PatchOperationReplace">
@@ -543,7 +543,7 @@
 				<li Class="PatchOperationReplace">
                     			<xpath>Defs/ThingDef[defName="MechanicalMedNose"]/label</xpath>
                     				<value>
-							<label>Mechanical Ear</label>
+							<label>Mechanical Nose</label>
                     				</value>
 				</li>
 				<li Class="PatchOperationReplace">
