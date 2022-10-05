@@ -1,1 +1,19 @@
-1
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+<!-- remove VFE recipes from Chirurgie Patch -->
+<!-- Vikings -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Factions Expanded - Vikings</li> <!-- OskarPotocki.VFE.Vikings --> 
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>		
+			        <li Class="PatchOperationRemove">
+          				<xpath>Defs/RecipeDef[defName="latemeadmed"]/recipeUsers</xpath>
+        			</li>
+       </operations>
+    </match>
+	</Operation>
+</Patch>
