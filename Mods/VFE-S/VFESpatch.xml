@@ -10,7 +10,7 @@
 			<success>Normal</success>
 			<operations>		
 			        <li Class="PatchOperationRemove">
-          				<xpath>Defs/RecipeDef[defName="settlermed"]/recipeUsers</xpath>
+          				<xpath>Defs/RecipeDef[defName="settlermed"]</xpath>
         			</li>
        </operations>
     </match>
