@@ -1,0 +1,9 @@
+<loadFolders>
+	<v1.3>
+		<li>/</li>
+		<li>1.3</li>
+		<li IfModActive="oskarpotocki.vfe.vikings">Mods/VFE-V</li>
+		<li IfModActive="OskarPotocki.VanillaFactionsExpanded.MedievalModule">Mods/VFE-M</li>
+		<li IfModActive="OskarPotocki.VanillaFactionsExpanded.SettlersModule">Mods/VFE-S</li>
+	</v1.3>
+</loadFolders>
