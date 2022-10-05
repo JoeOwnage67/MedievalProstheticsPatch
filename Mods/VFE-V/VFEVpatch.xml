@@ -11,7 +11,7 @@
 			<success>Always</success>
 			<operations>		
 			        <li Class="PatchOperationRemove">
-          				<xpath>Defs/RecipeDef[defName="latemeadmed"]/recipeUsers</xpath>
+          				<xpath>Defs/RecipeDef[defName="latemeadmed"]</xpath>
         			</li>
        </operations>
     </match>
