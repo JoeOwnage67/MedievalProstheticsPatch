@@ -1,1 +1,18 @@
-1
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+<!-- remove VFE recipes from Chirurgie Patch -->
+<!-- Medieval -->  
+  <Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Factions Expanded - Medieval</li> <!-- OskarPotocki.VanillaFactionsExpanded.MedievalModule --> 
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Normal</success>
+			<operations>		
+			        <li Class="PatchOperationRemove">
+          				<xpath>Defs/RecipeDef[defName="latewinemed"]/recipeUsers</xpath>
+        			</li>
+       </operations>
+    </match>
+	</Operation>
+</Patch>
