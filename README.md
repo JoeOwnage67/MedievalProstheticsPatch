@@ -1,4 +1,4 @@
-# NewMedievalProstheticsPatch
+# MedievalProstheticsPatch 1.3
 Medieval Prosthetics Patch for Medieval Overhaul (Rimworld)
 
 Medieval Prosthetics is a collection of prosthetic limbs that are a fusion of reality and fantasy to give more prosthetic options to medieval runs, originally created by Nuno.
